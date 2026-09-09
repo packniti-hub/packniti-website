@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PackNiti — Find the box that fits.</title>
+  <meta name="description" content="Find the right corrugated box for your product, dimensions and quantity." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#">
+      <span class="brand-mark">P</span>
+      <span>pack<span>niti</span></span>
+    </a>
+    <nav>
+      <a href="#finder">Find a Box</a>
+      <a href="#catalogue">Catalogue</a>
+      <a href="#custom">Custom Boxes</a>
+    </nav>
+    <a class="nav-cta" href="#finder">Find My Box <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> PACKAGING, WITHOUT THE GUESSWORK</div>
+        <h1>Find the box<br><em>that fits.</em></h1>
+        <p class="hero-sub">Tell us what you're packing, enter your dimensions, or simply browse. PackNiti helps you get to the right box faster.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#finder">Start finding <span>→</span></a>
+          <button class="ghost-btn" id="openAi">✨ Ask PackNiti AI</button>
+        </div>
+        <div class="trust-row">
+          <span>3-ply corrugated</span><i>·</i><span>Ready catalogue sizes</span><i>·</i><span>Bulk pricing</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glow"></div>
+        <div class="floating-note note-one"><span>01</span> Tell us what you're packing</div>
+        <div class="floating-note note-two"><span>02</span> Get matched to real sizes</div>
+        <div class="box-scene">
+          <div class="box box-large">
+            <div class="box-top"></div>
+            <div class="box-front"><span>PACK<br>NITI</span></div>
+            <div class="box-side"></div>
+          </div>
+          <div class="box box-small">
+            <div class="box-top"></div>
+            <div class="box-front"><span>BOX<br>01</span></div>
+            <div class="box-side"></div>
+          </div>
+        </div>
+        <div class="dimension-tag">L × B × W</div>
+      </div>
+    </section>
+
+    <section class="finder-section" id="finder">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">THE PACKNITI BOX FINDER</div>
+          <h2>How do you want to find yours?</h2>
+        </div>
+        <p>No jargon. No hunting through endless product pages. Start wherever you are.</p>
+      </div>
+
+      <div class="finder-tabs">
+        <button class="finder-tab active" data-tab="size">I know my size</button>
+        <button class="finder-tab" data-tab="product">I know my product</button>
+        <button class="finder-tab" data-tab="browse">Show me the catalogue</button>
+      </div>
+
+      <div class="finder-panel" id="sizePanel">
+        <div class="panel-intro">
+          <span class="step">01</span>
+          <div><strong>Enter your box dimensions</strong><small>Use internal dimensions in inches.</small></div>
+        </div>
+        <div class="dimension-fields">
+          <label>Length<input id="length" inputmode="decimal" placeholder="10" /></label>
+          <span>×</span>
+          <label>Breadth<input id="breadth" inputmode="decimal" placeholder="8" /></label>
+          <span>×</span>
+          <label>Width<input id="width" inputmode="decimal" placeholder="4" /></label>
+          <button class="find-btn" id="findBtn">Find boxes <span>→</span></button>
+        </div>
+        <div class="quick-row">
+          <span>Popular searches:</span>
+          <button data-size="8,6,4">8 × 6 × 4</button>
+          <button data-size="10,8,4">10 × 8 × 4</button>
+          <button data-size="12,10,6">12 × 10 × 6</button>
+        </div>
+      </div>
+
+      <div class="finder-panel hidden" id="productPanel">
+        <div class="ai-prompt">
+          <div class="ai-icon">✦</div>
+          <div>
+            <strong>What are you packing?</strong>
+            <small>Example: “250g cosmetics”, “3 T-shirts”, “Amazon orders”.</small>
+          </div>
+          <button class="find-btn" id="productAi">Ask PackNiti AI <span>→</span></button>
+        </div>
+      </div>
+
+      <div class="finder-panel hidden" id="browsePanel">
+        <div class="browse-row">
+          <div><strong>Browse all available sizes</strong><small>Filter by dimensions, quantity and box type.</small></div>
+          <a class="find-btn" href="#catalogue">Open catalogue <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="results-section" id="results">
+      <div class="results-top">
+        <div>
+          <div class="eyebrow">MATCHED FOR YOU</div>
+          <h2>Good fits, not just close fits.</h2>
+        </div>
+        <div class="match-note"><span>●</span> Showing example matches</div>
+      </div>
+      <div class="cards">
+        <article class="box-card featured">
+          <div class="card-image"><div class="mini-box"><div></div></div><span class="best">BEST MATCH</span></div>
+          <div class="card-body">
+            <div class="card-meta">3-Ply · Brown Corrugated</div>
+            <h3>10 × 8 × 4 <small>in</small></h3>
+            <p>Balanced fit for compact products and everyday dispatches.</p>
+            <div class="price-line"><strong>From ₹—</strong><span>bulk pricing available</span></div>
+            <button class="card-btn">View size <span>→</span></button>
+          </div>
+        </article>
+        <article class="box-card">
+          <div class="card-image"><div class="mini-box medium"><div></div></div></div>
+          <div class="card-body">
+            <div class="card-meta">3-Ply · Brown Corrugated</div>
+            <h3>10 × 9 × 4 <small>in</small></h3>
+            <p>A little extra room when your product needs breathing space.</p>
+            <div class="price-line"><strong>From ₹—</strong><span>bulk pricing available</span></div>
+            <button class="card-btn">View size <span>→</span></button>
+          </div>
+        </article>
+        <article class="box-card">
+          <div class="card-image"><div class="mini-box wide"><div></div></div></div>
+          <div class="card-body">
+            <div class="card-meta">3-Ply · Brown Corrugated</div>
+            <h3>12 × 8 × 4 <small>in</small></h3>
+            <p>More surface area for wider products and protective packing.</p>
+            <div class="price-line"><strong>From ₹—</strong><span>bulk pricing available</span></div>
+            <button class="card-btn">View size <span>→</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="ai-section">
+      <div class="ai-card">
+        <div class="ai-orbit"><span>✦</span></div>
+        <div class="ai-copy">
+          <div class="eyebrow">DON'T KNOW THE SIZE?</div>
+          <h2>Just describe what you're packing.</h2>
+          <p>PackNiti can turn a simple product description into the questions, dimensions and box options you actually need.</p>
+          <button class="primary-btn" id="openAi2">Talk to PackNiti AI <span>→</span></button>
+        </div>
+        <div class="conversation">
+          <div class="bubble user">I need boxes for 250 perfume bottles.</div>
+          <div class="bubble bot"><span>✦</span> Got it. What are the approximate dimensions of one bottle?</div>
+          <div class="typing"><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalogue" id="catalogue">
+      <div class="catalogue-heading">
+        <div>
+          <div class="eyebrow">PACKNITI CATALOGUE</div>
+          <h2>Ready sizes. Real boxes.</h2>
+        </div>
+        <a href="#finder" class="text-link">Find by dimensions →</a>
+      </div>
+      <div class="catalogue-grid">
+        <div class="catalogue-tile"><span>01</span><strong>Small & compact</strong><p>For accessories, cosmetics & small products.</p></div>
+        <div class="catalogue-tile"><span>02</span><strong>Everyday shipping</strong><p>Practical sizes for D2C and marketplace orders.</p></div>
+        <div class="catalogue-tile"><span>03</span><strong>Medium & roomy</strong><p>For apparel, kitchenware & larger products.</p></div>
+        <div class="catalogue-tile dark"><span>04</span><strong>Need something else?</strong><p>Tell us your dimensions and we'll help you find the closest fit.</p><a href="#finder">Get a custom quote →</a></div>
+      </div>
+    </section>
+
+    <section class="custom" id="custom">
+      <div>
+        <div class="eyebrow">WHEN A READY SIZE ISN'T ENOUGH</div>
+        <h2>We can help you go<br><em>custom.</em></h2>
+      </div>
+      <div>
+        <p>Share your product, dimensions and quantity. A PackNiti team member can take it from there.</p>
+        <a class="primary-btn" href="#finder">Start a custom enquiry <span>→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><span class="brand-mark">P</span><span>pack<span>niti</span></span></div>
+    <p>Packaging made simpler.</p>
+    <span>© 2026 PackNiti</span>
+  </footer>
+
+  <div class="modal hidden" id="aiModal">
+    <div class="modal-backdrop" id="closeAi"></div>
+    <div class="ai-modal">
+      <button class="modal-close" id="closeAi2">×</button>
+      <div class="ai-icon big">✦</div>
+      <div class="eyebrow">PACKNITI AI</div>
+      <h2>What are you packing?</h2>
+      <p>Describe your product in plain language. We'll turn it into the right packaging questions.</p>
+      <textarea id="aiInput" placeholder="e.g. I sell handmade candles, around 250g each..."></textarea>
+      <button class="primary-btn full" id="sendAi">Continue <span>→</span></button>
+      <small>This prototype does not call the AI yet. The production version will connect securely to the PackNiti backend.</small>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
