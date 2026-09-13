@@ -12,11 +12,16 @@ const isInStock = p => {
   return status.includes("stock") && !status.includes("not");
 };
 const imageUrl = p => {
-  const raw = String(p.image_url||"").trim();
-  if(!raw) return "";
-  const match = raw.match(/drive\.google\.com\/.*[?&]id=([^&]+)/i) ||
-                raw.match(/drive\.google\.com\/file\/d\/([^/]+)/i);
-  return match ? `https://drive.google.com/thumbnail?id=${encodeURIComponent(match[1])}&sz=w600` : raw;
+  // Use the bundled PackNiti catalogue image as the source of truth.
+  // The previous homepage merge accidentally reverted this to Google Drive thumbnails.
+  const d = p.dimensions || {};
+  const n = v => {
+    const x = Number(v);
+    return Number.isInteger(x) ? String(x) : String(x).replace(/\.0+$/, "");
+  };
+  const key = `assets/catalogue/box_${n(d.length)}x${n(d.breadth)}x${n(d.width)}`;
+  // 6.5 × 2.5 × 3 is the only PNG in the bundled catalogue; all other images are JPG.
+  return `${key}.${Number(d.length)===6.5 && Number(d.breadth)===2.5 && Number(d.width)===3 ? "png" : "jpg"}`;
 };
 
 async function loadCatalogue(){

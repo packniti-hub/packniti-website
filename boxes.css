@@ -86,16 +86,19 @@ h1,h2,h3{font-family:"Space Grotesk";letter-spacing:-.055em;margin:0}.hero-copy 
 }
 
 
-/* Step 8.5 — larger catalogue product images */
+/* Catalogue images — use the real bundled artwork, fitted cleanly inside the thumbnail. */
+.product-image{background:#fff;overflow:hidden;}
 .product-image img{
-  width:118%;
-  height:118%;
-  max-width:none;
-  max-height:none;
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
   object-fit:contain;
-  padding:0;
-  margin:-9%;
-  mix-blend-mode:multiply;
+  object-position:center;
+  padding:4px;
+  margin:0;
+  transform:none;
+  box-sizing:border-box;
 }
 .search-feedback{min-height:18px;margin-top:12px;font-size:11px;color:var(--kraft);font-weight:600}.search-feedback:empty{min-height:0;margin-top:0}@media(max-width:700px){.search-feedback{font-size:10px;margin-top:10px}}
 .search-feedback{min-height:18px;margin-top:12px;font-size:11px;color:var(--kraft);font-weight:600;letter-spacing:.01em}
@@ -352,8 +355,8 @@ h1,h2,h3{font-family:"Space Grotesk";letter-spacing:-.055em;margin:0}.hero-copy 
     align-items:center;
   }
   .product-row .product-image{
-    width:72px;
-    height:72px;
+    width:100%;
+    height:150px;
   }
   .product-title{
     overflow-wrap:anywhere;
@@ -626,5 +629,117 @@ h1,h2,h3{font-family:"Space Grotesk";letter-spacing:-.055em;margin:0}.hero-copy 
   .product-image:hover{
     transform:none!important;
     box-shadow:none!important;
+  }
+}
+
+/* Catalogue image presentation — keep the real PackNiti catalogue artwork, but give it room to breathe. */
+.product-row{grid-template-columns:280px minmax(210px,1fr) 125px 190px 135px;min-height:170px;gap:22px;padding:16px 0}
+.product-row .product-image{height:150px;border-radius:22px;background:#fff;overflow:hidden;display:grid;place-items:center}
+.product-row .product-image img{width:100%;height:100%;max-width:none;max-height:none;object-fit:contain;object-position:center;padding:0;mix-blend-mode:normal}
+
+@media(max-width:1100px){
+  .product-row{grid-template-columns:230px minmax(180px,1fr) 110px 170px 115px;min-height:155px}
+  .product-row .product-image{height:135px;border-radius:20px}
+}
+@media(max-width:700px){
+  .product-row{grid-template-columns:minmax(155px,45vw) 1fr;gap:12px;padding:16px 0;min-height:0}
+  .product-row .product-image{height:155px;border-radius:22px}
+  .product-row .product-image img{padding:0}
+}
+
+/* APPROVED CATALOGUE IMAGE FIX — final authoritative rule.
+   The source artwork contains generous white margins. Scale the artwork
+   inside the existing thumbnail so the actual box/dimension drawing reads
+   at the intended size, while keeping the card itself unchanged. */
+.product-row .product-image{
+  background:#fff !important;
+  overflow:hidden !important;
+  display:grid !important;
+  place-items:center !important;
+}
+.product-row .product-image img{
+  width:100% !important;
+  height:100% !important;
+  max-width:none !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  padding:0 !important;
+  margin:0 !important;
+  mix-blend-mode:normal !important;
+  transform:scale(1.72) !important;
+  transform-origin:center center !important;
+}
+@media(max-width:700px){
+  .product-row .product-image img{
+    transform:scale(1.72) !important;
+  }
+}
+
+
+/* FINAL CATALOGUE IMAGE AUTHORITY — do not zoom/crop the source artwork. */
+.product-image{background:#fff;overflow:hidden;}
+.product-image img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;padding:4px;margin:0;transform:none;box-sizing:border-box;}
+@media(max-width:700px){.product-row .product-image{width:100%;height:150px;}.product-row .product-image img{padding:4px;}}
+
+/* PACKNITI APPROVED CATALOGUE LAYOUT — authoritative final override.
+   Uses the real catalogue artwork without changing the source files. */
+.product-row{
+  grid-template-columns:minmax(300px,42%) minmax(220px,1fr) 120px 160px 120px !important;
+  gap:24px !important;
+  align-items:center !important;
+  min-height:292px !important;
+  padding:20px 0 !important;
+}
+.product-row .product-image{
+  width:100% !important;
+  height:250px !important;
+  border-radius:24px !important;
+  background:#fff !important;
+  overflow:hidden !important;
+  display:grid !important;
+  place-items:center !important;
+}
+.product-row .product-image img{
+  width:100% !important;
+  height:100% !important;
+  max-width:100% !important;
+  max-height:100% !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  padding:0 !important;
+  margin:0 !important;
+  transform:none !important;
+  mix-blend-mode:normal !important;
+}
+
+@media(max-width:1100px){
+  .product-row{
+    grid-template-columns:minmax(240px,40%) minmax(180px,1fr) 100px 140px 105px !important;
+    min-height:250px !important;
+  }
+  .product-row .product-image{height:215px !important;border-radius:22px !important}
+}
+
+@media(max-width:700px){
+  .product-row{
+    grid-template-columns:1fr !important;
+    gap:14px !important;
+    min-height:0 !important;
+    padding:18px 0 !important;
+  }
+  .product-row .product-image{
+    width:100% !important;
+    height:190px !important;
+    border-radius:22px !important;
+  }
+  .product-row .product-image img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:contain !important;
+    transform:none !important;
+  }
+  .product-dims,.price,.select-btn,.product-ply{
+    grid-column:auto !important;
   }
 }
