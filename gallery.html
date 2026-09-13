@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Box Image Catalogue — PackNiti</title>
+<meta name="description" content="Browse all PackNiti ready-size corrugated box images and dimensions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+<header class="gallery-topbar">
+  <a class="gallery-brand" href="index.html"><img src="assets/packniti-header-logo.png" alt="PackNiti"></a>
+  <nav><a href="boxes.html">Boxes</a><a href="gallery.html" class="active">Image catalogue</a><a href="contact.html">Contact Us</a></nav>
+  <a class="gallery-cart" href="cart.html">Cart <b class="cart-count hidden" data-cart-count>0</b></a>
+</header>
+<main>
+  <section class="gallery-hero">
+    <div class="eyebrow">PACKNITI · READY-SIZE BOXES</div>
+    <h1>See the box.<br><em>Then choose it.</em></h1>
+    <p>Browse every ready-size box image with its exact dimensions. When you find the right one, jump straight to its selection and pricing.</p>
+  </section>
+  <section class="gallery-toolbar">
+    <div><strong id="galleryCount">39 boxes</strong><span> · ready-size image catalogue</span></div>
+    <a href="boxes.html">← Back to box finder</a>
+  </section>
+  <section id="galleryGrid" class="gallery-grid" aria-live="polite"></section>
+</main>
+<script src="gallery.js"></script>
+</body>
+</html>

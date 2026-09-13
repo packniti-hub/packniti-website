@@ -1,0 +1,1 @@
+(function(){function update(){let n=0;try{const a=JSON.parse(localStorage.getItem("packniti_checkout_items")||"[]");n=a.reduce((s,x)=>s+(Number(x.qty)||0),0)}catch(e){}document.querySelectorAll("[data-cart-count]").forEach(e=>{e.textContent=n.toLocaleString("en-IN");e.classList.toggle("hidden",n===0)})}update();window.addEventListener("storage",update)})();
