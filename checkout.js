@@ -1,5 +1,7 @@
 const ORDER_API_URL = "https://packniti-order-api.packniti.workers.dev/";
 const REQUEST_TIMEOUT_MS = 30000;
+const MAX_SUBMISSION_ATTEMPTS = 2;
+const RETRY_DELAY_MS = 750;
 
 const $ = (id) => document.getElementById(id);
 
@@ -82,6 +84,11 @@ function showToast(message, duration = 5000) {
   showToast.timer = setTimeout(() => {
     toast.classList.add("hidden");
   }, duration);
+}
+
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 
@@ -224,6 +231,15 @@ function getIdempotencyKey() {
 }
 
 
+function clearIdempotencyKey() {
+  try {
+    sessionStorage.removeItem("packniti_checkout_idempotency_key");
+  } catch (error) {
+    console.warn("Could not clear checkout idempotency key:", error);
+  }
+}
+
+
 // ============================================================
 // RESTORE FORM DATA
 // ============================================================
@@ -352,84 +368,188 @@ function setSubmittingState(isSubmitting) {
 
 async function postOrder(payload) {
 
-  const controller = new AbortController();
+  let lastError = null;
 
 
-  const timeout = setTimeout(
-    () => controller.abort(),
-    REQUEST_TIMEOUT_MS
-  );
+  for (
+    let attempt = 1;
+    attempt <= MAX_SUBMISSION_ATTEMPTS;
+    attempt++
+  ) {
+
+    const controller = new AbortController();
 
 
-  try {
-
-    const response = await fetch(
-      ORDER_API_URL,
-      {
-        method: "POST",
-
-        headers: {
-          "Content-Type":
-            "text/plain;charset=utf-8"
-        },
-
-        body: JSON.stringify(payload),
-
-        signal: controller.signal,
-
-        cache: "no-store"
-      }
+    const timeout = setTimeout(
+      () => controller.abort(),
+      REQUEST_TIMEOUT_MS
     );
-
-
-    const responseText =
-      await response.text();
-
-
-    let result;
 
 
     try {
 
-      result = JSON.parse(responseText);
+      const response = await fetch(
+        ORDER_API_URL,
+        {
+          method: "POST",
+
+          headers: {
+            "Content-Type":
+              "text/plain;charset=utf-8"
+          },
+
+          body: JSON.stringify(payload),
+
+          signal: controller.signal,
+
+          cache: "no-store"
+        }
+      );
+
+
+      const responseText =
+        await response.text();
+
+
+      let result;
+
+
+      try {
+
+        result = JSON.parse(responseText);
+
+      } catch (error) {
+
+        const parseError = new Error(
+          `Order server returned an invalid response (HTTP ${response.status}).`
+        );
+
+        parseError.httpStatus = response.status;
+
+        throw parseError;
+      }
+
+
+      /*
+       * A 5xx response is considered potentially transient.
+       *
+       * IMPORTANT:
+       * We retry with the SAME idempotency key.
+       * Therefore, even if the first request was actually saved,
+       * the retry cannot create a duplicate order.
+       */
+      if (!response.ok) {
+
+        const serverError = new Error(
+          result.error ||
+          `Order server returned HTTP ${response.status}.`
+        );
+
+        serverError.httpStatus = response.status;
+
+        const retryable =
+          response.status === 502 ||
+          response.status === 503 ||
+          response.status === 504;
+
+
+        if (
+          retryable &&
+          attempt < MAX_SUBMISSION_ATTEMPTS
+        ) {
+
+          lastError = serverError;
+
+          await sleep(RETRY_DELAY_MS);
+
+          continue;
+        }
+
+
+        throw serverError;
+      }
+
+
+      if (!result.ok) {
+
+        const rejectedError = new Error(
+          result.error ||
+          "Order receiver rejected the order."
+        );
+
+        rejectedError.httpStatus = response.status;
+
+        /*
+         * Do NOT retry a valid HTTP response where the
+         * application itself rejected the order.
+         */
+        throw rejectedError;
+      }
+
+
+      return result;
+
 
     } catch (error) {
 
-      throw new Error(
-        `Order server returned an invalid response (HTTP ${response.status}).`
+      lastError = error;
+
+
+      const isAbort =
+        error?.name === "AbortError";
+
+
+      const isNetworkError =
+        error?.name === "TypeError";
+
+
+      const isRetryableHttp =
+        error?.httpStatus === 502 ||
+        error?.httpStatus === 503 ||
+        error?.httpStatus === 504;
+
+
+      const shouldRetry =
+        attempt < MAX_SUBMISSION_ATTEMPTS &&
+        (
+          isAbort ||
+          isNetworkError ||
+          isRetryableHttp
+        );
+
+
+      if (!shouldRetry) {
+
+        throw error;
+      }
+
+
+      /*
+       * The first request may still have reached the server
+       * even though the browser stopped waiting.
+       *
+       * We deliberately reuse the same idempotency key.
+       */
+      console.warn(
+        `PackNiti order attempt ${attempt} did not complete. Retrying safely...`,
+        error
       );
 
-    }
+
+      await sleep(RETRY_DELAY_MS);
 
 
-    if (!response.ok) {
+    } finally {
 
-      throw new Error(
-        result.error ||
-        `Order server returned HTTP ${response.status}.`
-      );
+      clearTimeout(timeout);
 
     }
-
-
-    if (!result.ok) {
-
-      throw new Error(
-        result.error ||
-        "Order receiver rejected the order."
-      );
-
-    }
-
-
-    return result;
-
-
-  } finally {
-
-    clearTimeout(timeout);
-
   }
+
+
+  throw lastError || new Error(
+    "Order submission failed."
+  );
 }
 
 
@@ -543,9 +663,17 @@ async function submitOrder() {
   data.source = "Website";
 
 
-  // IMPORTANT:
-  // This key stays the same if the customer retries.
-  // Therefore a retry cannot create a duplicate order.
+  /*
+   * IMPORTANT:
+   *
+   * This key stays the same for the entire current
+   * submission/retry cycle.
+   *
+   * If the browser times out after the server already
+   * saved the order, the retry uses this same key and
+   * Apps Script returns the existing order instead of
+   * creating a second order.
+   */
   data.idempotencyKey =
     getIdempotencyKey();
 
@@ -567,8 +695,10 @@ async function submitOrder() {
       await postOrder(data);
 
 
-    // IMPORTANT:
-    // Always use the server-generated reference.
+    /*
+     * IMPORTANT:
+     * Always use the server-generated reference.
+     */
     data.reference =
       result.reference || "";
 
@@ -585,6 +715,15 @@ async function submitOrder() {
       "packniti_order",
       JSON.stringify(data)
     );
+
+
+    /*
+     * The order has now been confirmed.
+     *
+     * Clear the current checkout's idempotency key so
+     * the next NEW order receives a fresh key.
+     */
+    clearIdempotencyKey();
 
 
     // Only redirect after confirmed success.
