@@ -33,3 +33,210 @@ button,input{font:inherit}
 footer{background:#171815;color:#fff;padding:55px 5vw 28px;display:grid;grid-template-columns:1fr auto;gap:35px}.footer-brand img{width:170px;height:auto;display:block}.footer-brand p{color:#9d9e98;font-size:13px}.footer-links{display:flex;gap:25px;align-items:start}.footer-links a{color:#d1d1cb;font-size:14px}.footer-bottom{grid-column:1/-1;border-top:1px solid #33342f;padding-top:20px;color:#777972;font-size:12px}
 @media(max-width:1000px){.topbar{padding:0 22px}.topbar nav,.nav-actions .contact-link{display:none}.nav-actions{margin-left:auto;margin-right:12px}.menu{display:block}.brand-logo{width:150px}.product{padding:28px 5vw 70px}.product-grid{grid-template-columns:1fr;gap:38px}.info{padding-top:0}.product-info-sections{grid-template-columns:1fr;gap:40px}.related-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.product{padding:22px 22px 60px}.product-grid{gap:28px}.main-product-image{border-radius:22px}.main-product-image img{padding:10px}.gallery-thumb{width:72px;height:72px}.info h1{font-size:44px}.pricing{padding:18px}.buy{flex-wrap:wrap}.qty{width:100%;justify-content:center}.qty button,.qty input{flex:1}.product-add,.buy>a{min-width:100%}.product-lower{padding:0 22px 65px}.product-info-sections,.related-section{padding-top:45px;margin-top:45px}.related-grid{grid-template-columns:1fr}.related-card img{height:230px}footer{grid-template-columns:1fr;padding:45px 22px 25px}.footer-links{flex-wrap:wrap}.footer-bottom{grid-column:auto}}
+
+/* =========================================================
+   LIVE PRICE + BUY CONTROLS
+========================================================= */
+
+.buy {
+  display: block;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.buy-controls {
+  display: grid;
+  grid-template-columns: 155px minmax(0, 1fr);
+  gap: 10px;
+  width: 100%;
+  align-items: stretch;
+}
+
+.buy-controls .qty {
+  width: 155px;
+  min-width: 0;
+}
+
+.buy-controls .product-add {
+  min-width: 0;
+  width: 100%;
+}
+
+
+/* =========================================================
+   LIVE PRICE
+========================================================= */
+
+.live-price {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  column-gap: 18px;
+  width: 100%;
+  margin-top: 12px;
+  padding: 11px 2px 2px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.live-price-label {
+  min-width: 0;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #6f6a61;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.live-price strong {
+  display: block;
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.2;
+  color: #111;
+  font-family: "Space Grotesk", sans-serif;
+  white-space: nowrap;
+}
+
+.live-price-rate {
+  display: block;
+  font-size: 13px;
+  line-height: 1.2;
+  color: #4f4b44;
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+  .buy-controls {
+    grid-template-columns: 145px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .buy-controls .qty {
+    width: 145px;
+  }
+
+  .live-price {
+    column-gap: 14px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .buy {
+    width: 100%;
+  }
+
+  /*
+     Keep quantity and Add to Cart on the SAME ROW
+     wherever the screen is wide enough.
+  */
+
+  .buy-controls {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 8px;
+    width: 100%;
+  }
+
+  .buy-controls .qty {
+    width: 120px;
+    min-width: 0;
+  }
+
+  .buy-controls .qty button,
+  .buy-controls .qty input {
+    width: auto;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .buy-controls .product-add {
+    min-width: 0;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+
+  /*
+     Keep Estimated total + amount + rate
+     on one clean line.
+  */
+
+  .live-price {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    column-gap: 8px;
+    padding-top: 10px;
+  }
+
+  .live-price-label {
+    font-size: 11px;
+  }
+
+  .live-price strong {
+    font-size: 18px;
+  }
+
+  .live-price-rate {
+    font-size: 11px;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+========================================================= */
+
+@media (max-width: 360px) {
+
+  .buy-controls {
+    grid-template-columns: 108px minmax(0, 1fr);
+    gap: 6px;
+  }
+
+  .buy-controls .qty {
+    width: 108px;
+  }
+
+  .buy-controls .qty button,
+  .buy-controls .qty input {
+    font-size: 14px;
+  }
+
+  .buy-controls .product-add {
+    font-size: 13px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .live-price {
+    column-gap: 5px;
+  }
+
+  .live-price-label {
+    font-size: 10px;
+  }
+
+  .live-price strong {
+    font-size: 16px;
+  }
+
+  .live-price-rate {
+    font-size: 10px;
+  }
+
+}
