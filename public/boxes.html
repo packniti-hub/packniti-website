@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find Your Box — PackNiti</title>
+  <meta name="description" content="Browse PackNiti's ready-size corrugated boxes. Search by length, breadth and width.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="boxes.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="PackNiti home"><img src="assets/packniti-header-logo.png" alt="PackNiti" class="brand-logo"></a>
+    <nav class="navlinks">
+      <a class="active" href="boxes.html">Boxes</a>
+      <a href="#custom">Custom Boxes</a>
+      
+    </nav>
+    <div class="nav-actions">
+      <a class="cart-link" href="cart.html" aria-label="Open cart" title="Open cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H7"/><circle cx="10" cy="20" r="1.3"/><circle cx="18" cy="20" r="1.3"/></svg>
+        <span class="cart-label">Cart</span><b class="cart-count hidden" data-cart-count>0</b>
+      </a>
+      <a class="contact-link" href="contact.html">Contact Us <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="finder-hero" id="finder">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow">PACKNITI · READY-SIZE BOXES</div>
+          <h1>Find your<br><em>box.</em></h1>
+          <p>Search our ready sizes by dimensions, browse the catalogue, and see the right quantity price before you enquire.</p>
+        </div>
+
+        <div class="dimension-search">
+          <div class="search-label">SEARCH BY SIZE <span>INCHES</span></div>
+          <div class="dimension-inputs">
+            <label>Length<input id="searchLength" inputmode="decimal"></label>
+            <b>×</b>
+            <label>Breadth<input id="searchBreadth" inputmode="decimal"></label>
+            <b>×</b>
+            <label>Width<input id="searchWidth" inputmode="decimal"></label>
+            <button id="searchButton" type="button">Find boxes <span>→</span></button>
+          </div>
+          <div class="search-feedback" id="searchFeedback" aria-live="polite"></div>
+          <div class="search-hints">
+            <span>Try</span>
+            <button data-size="5,3,2">5 × 3 × 2</button>
+            <button data-size="10,8,4">10 × 8 × 4</button>
+            <button data-size="12,10,6">12 × 10 × 6</button>
+            <button id="clearSearch">Clear</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalogue-wrap">
+      <aside class="filters">
+        <div class="filter-head">
+          <div>
+            <div class="eyebrow">FILTER</div>
+            <h2>Box finder</h2>
+          </div>
+          <button id="resetFilters">Reset</button>
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-title">Length <span id="lengthValue">All</span></div>
+          <div class="range-row"><input id="lengthMin" type="range" min="0" max="60" step=".5" value="0"><input id="lengthMax" type="range" min="0" max="60" step=".5" value="60"></div>
+          <div class="range-caption"><span>0"</span><span>60"</span></div>
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-title">Breadth <span id="breadthValue">All</span></div>
+          <div class="range-row"><input id="breadthMin" type="range" min="0" max="40" step=".5" value="0"><input id="breadthMax" type="range" min="0" max="40" step=".5" value="40"></div>
+          <div class="range-caption"><span>0"</span><span>40"</span></div>
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-title">Width <span id="widthValue">All</span></div>
+          <div class="range-row"><input id="widthMin" type="range" min="0" max="40" step=".5" value="0"><input id="widthMax" type="range" min="0" max="40" step=".5" value="40"></div>
+          <div class="range-caption"><span>0"</span><span>40"</span></div>
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-title">Material</div>
+          <label class="check"><input type="checkbox" id="brownOnly" checked> Brown corrugated</label>
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-title">Ply</div>
+          <label class="check"><input type="checkbox" id="threePly" checked> 3-Ply</label>
+          <label class="check ply-option"><input type="checkbox" id="fivePly"> <span>5-Ply</span><small>Not in stock</small></label>
+        </div>
+
+        <div class="filter-note">
+          <span>✦</span>
+          
+        </div>
+      </aside>
+
+      <section class="results">
+        <div class="results-head">
+          <div>
+            <div class="eyebrow">CATALOGUE</div>
+            <h2>Find your box.</h2>
+            <p id="resultMessage">All available ready-size boxes.</p>
+          </div>
+          <div class="result-tools">
+            <label>Default quantity
+              <select id="quantity">
+                <option value="50">50 boxes</option>
+                <option value="100">100 boxes</option>
+                <option value="250" selected>250 boxes</option>
+                <option value="500">500 boxes</option>
+                <option value="1000">1,000 boxes</option>
+                <option value="2000">2,000 boxes</option>
+                <option value="5000">5,000 boxes</option>
+              </select>
+            </label>
+            <label>Sort
+              <select id="sort">
+                <option value="match">Best match</option>
+                <option value="size">Smallest first</option>
+                <option value="sizeDesc">Largest first</option>
+                <option value="price">Lowest price</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="list-guide">
+          <span>Select multiple boxes to compare or enquire together.</span>
+          <span><b>Price</b> updates from the quantity on each row.</span>
+        </div>
+        <div id="resultsList" class="results-list"></div>
+        <div id="emptyState" class="empty hidden">
+          <div class="empty-icon">⌕</div>
+          <h3>No exact boxes in this range.</h3>
+          <p>Try widening your dimensions, or let PackNiti show you the closest available sizes.</p>
+          <button class="dark-btn" id="showClosest">Show closest matches →</button>
+        </div>
+      </section>
+    </section>
+
+    <section class="custom-strip" id="custom">
+      <div>
+        <div class="eyebrow">CAN'T FIND YOUR SIZE?</div>
+        <h2>We'll help you get<br><em>closer.</em></h2>
+      </div>
+      <div>
+        <p>Choose a nearby ready size or send us your exact dimensions and quantity for a custom enquiry.</p>
+        <a href="custom.html" class="dark-btn">Custom box enquiry <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="contact-strip" id="contact">
+      <div>
+        <div class="eyebrow">CONTACT PACKNITI</div>
+        <h2>Need help with<br><em>your boxes?</em></h2>
+        <p>Talk to PackNiti directly for ready-size requirements, bulk orders, custom sizes or anything you need help with.</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-detail"><span>BUSINESS</span><strong>PackNiti</strong></div>
+        <div class="contact-detail"><span>WHATSAPP / PHONE</span><a href="tel:+919310706043">+91 93107 06043</a></div>
+        <div class="contact-detail"><span>EMAIL</span><a href="mailto:packniti@gmail.com">packniti@gmail.com</a></div>
+        <a class="contact-primary" href="contact.html">View contact details <span>→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <div class="selection-tray hidden" id="selectionTray">
+    <div class="tray-count"><strong id="selectedCount">0</strong><span>boxes selected</span></div>
+    <div class="tray-items" id="trayItems"></div>
+    <div class="tray-total"><small>Estimated total</small><strong id="estimatedTotal">₹0</strong></div>
+    <button class="tray-clear" id="clearSelection">Clear</button>
+    <button class="tray-quote" id="trayQuote">Checkout →</button>
+  </div>
+
+  
+
+  <script src="boxes.js"></script>
+<script src="seo-enhancements.js"></script>
+<script src="quantity-step-100.js"></script>
+</body>
+</html>

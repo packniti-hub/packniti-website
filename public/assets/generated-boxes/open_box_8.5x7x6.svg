@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+<defs>
+ <linearGradient id="kraft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d99a55"/><stop offset="1" stop-color="#b96f2d"/></linearGradient>
+ <linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e5ae6d"/><stop offset="1" stop-color="#c9813c"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feGaussianBlur stdDeviation="9"/></filter>
+ <marker id="arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#51402f"/></marker>
+</defs>
+<rect width="640" height="420" rx="28" fill="#eee7dc"/>
+<ellipse cx="320" cy="345" rx="175" ry="20" fill="#6c4b2e" opacity=".18" filter="url(#shadow)"/>
+<!-- open flaps -->
+<polygon points="256.2,158.7 499.1,158.7 499.1,59.0 256.2,59.0" fill="url(#top)" stroke="#8f5b2c" stroke-width="2"/>
+<polygon points="198.6,190.0 441.4,190.0 441.4,118.2 198.6,118.2" fill="#d08b48" stroke="#8f5b2c" stroke-width="2"/>
+<polygon points="441.4,190.0 499.1,158.7 481.1,103.9 423.4,135.2" fill="#bd7635" stroke="#8f5b2c" stroke-width="2"/>
+<!-- inside cavity -->
+<polygon points="210.6,200.0 429.4,200.0 487.1,168.7 268.2,168.7" fill="#8e5729" opacity=".95"/>
+<polygon points="198.6,190.0 441.4,190.0 499.1,158.7 256.2,158.7" fill="#c37b39" stroke="#8f5b2c" stroke-width="2"/>
+<!-- box body -->
+<polygon points="198.6,190.0 441.4,190.0 441.4,325.0 198.6,325.0" fill="url(#kraft)" stroke="#87552a" stroke-width="2"/>
+<polygon points="441.4,190.0 499.1,158.7 499.1,293.7 441.4,325.0" fill="#a9632b" stroke="#87552a" stroke-width="2"/>
+<!-- subtle corrugation -->
+<path d="M216.6 223.8 L423.4 223.8 M216.6 264.2 L423.4 264.2" stroke="#e9b978" opacity=".45" stroke-width="2"/>
+<!-- dimension lines -->
+<line x1="198.6" y1="355.0" x2="441.4" y2="355.0" stroke="#51402f" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="320.0" y="380.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#35291e">8.5 in</text>
+<line x1="534.1" y1="158.7" x2="534.1" y2="293.7" stroke="#51402f" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="551.1" y="232.2" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#35291e">6 in</text>
+<line x1="449.4" y1="330.0" x2="517.1" y2="298.7" stroke="#51402f" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="484.3" y="323.7" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#35291e">7 in</text>
+<text x="28" y="38" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#9c6232">3-PLY CORRUGATED</text>
+</svg>

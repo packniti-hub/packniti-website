@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout — PackNiti</title>
+  <meta name="description" content="Complete your PackNiti box order details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+<header class="checkout-nav">
+  <a class="brand" href="index.html" aria-label="PackNiti home">
+    <span class="brand-mark">P</span><span>pack<span>niti</span></span>
+  </a>
+  <div class="secure-note"><span>●</span> Secure checkout</div>
+</header>
+<main class="checkout-shell">
+  <div class="checkout-top">
+    <a href="boxes.html" class="back-link">← Back to boxes</a>
+    <div class="steps">
+      <span class="step active">01 DETAILS</span><i></i><span class="step">02 CONFIRM</span><i></i><span class="step">03 DONE</span>
+    </div>
+  </div>
+  <div class="checkout-grid">
+    <section class="details-column">
+      <div class="page-kicker">PACKNITI ORDER</div>
+      <h1>Let's get your<br><em>boxes moving.</em></h1>
+      <p class="intro">Tell us where to send them and how we can reach you. No payment is online yet. Confirm your order and PackNiti will get in touch with you to confirm delivery and shipping charges.</p>
+      <form id="checkoutForm" novalidate onsubmit="return false;">
+        <section class="form-card">
+          <div class="section-head"><span>01</span><div><h2>Contact details</h2><p>We'll use these details for order updates.</p></div></div>
+          <div class="field-grid two">
+            <label>First name <span class="optional">Optional</span><input name="firstName" autocomplete="given-name"></label>
+            <label>Last name <span class="optional">Optional</span><input name="lastName" autocomplete="family-name"></label>
+          </div>
+          <div class="field-grid two">
+            <label>Email <span class="optional">Optional</span><input type="email" name="email" autocomplete="email"></label>
+            <label>WhatsApp number <span class="required">Required</span><input type="tel" name="mobile" inputmode="tel" autocomplete="tel" placeholder="Your WhatsApp number" required></label>
+          </div>
+          <div class="field-grid">
+            <label>Company <span class="optional">Optional</span><input name="company" autocomplete="organization"></label>
+          </div>
+        </section>
+        <section class="form-card">
+          <div class="section-head"><span>02</span><div><h2>GST details</h2><p>Useful for business orders and invoicing.</p></div></div>
+          <div class="gst-row">
+            <label>GSTIN <span class="optional">Optional</span><input id="gstin" name="gstin" maxlength="15" placeholder="15-character GSTIN"></label>
+            <label class="gst-check"><input type="checkbox" id="noGst"> <span>I do not have a GST number</span></label>
+          </div>
+        </section>
+        <section class="form-card">
+          <div class="section-head"><span>03</span><div><h2>Shipping address</h2><p>Where should we deliver your boxes?</p></div></div>
+          <div class="field-grid">
+            <label>Address<input name="address" autocomplete="street-address"></label>
+          </div>
+          <div class="field-grid two">
+            <label>City<input name="city" autocomplete="address-level2"></label>
+            <label>PIN code<input name="pin" inputmode="numeric" maxlength="6" autocomplete="postal-code"></label>
+          </div>
+          <div class="field-grid">
+            <label>State
+              <select name="state">
+                <option value="">Select state</option>
+                <option>Andhra Pradesh</option><option>Assam</option><option>Bihar</option><option>Chandigarh</option>
+                <option>Chhattisgarh</option><option>Delhi</option><option>Goa</option><option>Gujarat</option>
+                <option>Haryana</option><option>Himachal Pradesh</option><option>Jharkhand</option><option>Jammu & Kashmir</option>
+                <option>Karnataka</option><option>Kerala</option><option>Madhya Pradesh</option><option>Maharashtra</option>
+                <option>Odisha</option><option>Punjab</option><option>Rajasthan</option><option>Tamil Nadu</option>
+                <option>Telangana</option><option>Uttar Pradesh</option><option>Uttarakhand</option><option>West Bengal</option>
+                <option>Other</option>
+              </select>
+            </label>
+          </div>
+        </section>
+        <section class="form-card">
+          <div class="section-head"><span>04</span><div><h2>Billing address</h2><p>Use a different billing address only if needed.</p></div></div>
+          <label class="billing-check"><input type="checkbox" id="sameBilling" checked> <span>Billing address is the same as shipping address</span></label>
+          <div id="billingFields" class="billing-fields hidden">
+            <div class="field-grid"><label>Billing address<input name="billingAddress"></label></div>
+            <div class="field-grid two"><label>City<input name="billingCity"></label><label>PIN code<input name="billingPin" inputmode="numeric" maxlength="6"></label></div>
+            <div class="field-grid"><label>State<select name="billingState"><option value="">Select state</option><option>Delhi</option><option>Gujarat</option><option>Haryana</option><option>Karnataka</option><option>Maharashtra</option><option>Rajasthan</option><option>Tamil Nadu</option><option>Telangana</option><option>Uttar Pradesh</option><option>West Bengal</option><option>Other</option></select></label></div>
+          </div>
+        </section>
+        <section class="form-card">
+          <div class="section-head"><span>05</span><div><h2>Order notes</h2><p>Anything PackNiti should know before confirming the order?</p></div></div>
+          <div class="field-grid">
+            <label>Notes <span class="optional">Optional</span><textarea name="notes" rows="4" placeholder="Delivery timing, unloading instructions, special requirements..."></textarea></label>
+          </div>
+        </section>
+        <div class="form-actions">
+          <a href="boxes.html" class="secondary-btn">← Continue shopping</a>
+          <button type="submit" class="primary-btn">Confirm order <span>→</span></button>
+        </div>
+        <p class="payment-note">Shipping charges applicable. PackNiti will confirm delivery charges and final order details with you before dispatch.</p>
+      </form>
+    </section>
+    <aside class="summary-column">
+      <div class="summary-card">
+        <div class="summary-kicker">ORDER SUMMARY</div>
+        <div id="summaryItems"></div>
+        <div class="summary-line"><span>Boxes subtotal</span><strong id="subtotal">₹0</strong></div>
+        <div class="summary-line"><span>Delivery</span><span class="muted">Calculated at confirmation</span></div>
+        <div class="summary-total"><span>Estimated total</span><strong id="total">₹0</strong></div>
+        <div class="summary-foot">Shipping charges applicable. Final delivery charges and order details will be confirmed by PackNiti after your order is received.</div>
+      </div>
+      <div class="help-card">
+        <span>✦</span><div><strong>Need help?</strong><p>Have a special requirement or want to confirm something before ordering?</p><a href="https://wa.me/919310706043" target="_blank" rel="noopener">WhatsApp PackNiti ↗</a></div>
+      </div>
+    </aside>
+  </div>
+</main>
+<div class="toast hidden" id="toast"></div>
+<script src="checkout.js"></script>
+<script src="checkout-image-fix.js"></script>
+</body>
+</html>

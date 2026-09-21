@@ -1,0 +1,2347 @@
+{
+  "catalogue_name": "PackNiti 39-Size Catalogue",
+  "source_workbook": "Packniti_Meta_COMPLETE_39_MOQ_Pricing_First.xlsx",
+  "product_count": 39,
+  "dimension_order_note": "Workbook size field is treated as Length × Breadth × Width for the website finder, matching PackNiti's requested UI terminology.",
+  "currency": "INR",
+  "products": [
+    {
+      "id": "PACKNITI-3PLY-5x3x2",
+      "title": "3 Ply Brown Corrugated Box - 5 × 3 × 2 in",
+      "dimensions": {
+        "length": 5.0,
+        "breadth": 3.0,
+        "width": 2.0,
+        "display": "5 × 3 × 2"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "5.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 10.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 7.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 5.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 5.0
+        }
+      ],
+      "product_tags": [
+        "jewellery",
+        "rings",
+        "earrings",
+        "small accessories",
+        "tiny electronics",
+        "electronic components",
+        "small stationery",
+        "coins",
+        "samples",
+        "small spare parts",
+        "small gift items"
+      ],
+      "use_case_tags": [
+        "jewellery packing",
+        "small product packing",
+        "sample packing",
+        "ecommerce small parcel",
+        "courier",
+        "gifting",
+        "retail packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹10/box 101–500 boxes: ₹7/box 501–2,000 boxes: ₹5.5/box 2,000+ boxes: ₹5/box  3 ply brown corrugated box, 5 × 3 × 2 inches (L × W × H). Suitable for jewellery, rings, earrings, small accessories, tiny electronics, and electronic components. Useful for jewellery packing, small product packing, sample packing, and ecommerce small parcel. Commonly searched as chhota dabba, bahut chhota box, small box, and mini box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1Tad_A9xpCOmzS3rTzQjAVkZwsP4yhF0T",
+      "source_drive_url": "https://drive.google.com/file/d/1Tad_A9xpCOmzS3rTzQjAVkZwsP4yhF0T/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-4x3x3",
+      "title": "3 Ply Brown Corrugated Box - 4 × 3 × 3 in",
+      "dimensions": {
+        "length": 4.0,
+        "breadth": 3.0,
+        "width": 3.0,
+        "display": "4 × 3 × 3"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "5.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 10.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 7.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 5.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 5.0
+        }
+      ],
+      "product_tags": [
+        "jewellery",
+        "rings",
+        "earrings",
+        "small accessories",
+        "cosmetics",
+        "lipstick",
+        "small beauty products",
+        "small electronics",
+        "chargers/accessories",
+        "stationery",
+        "samples",
+        "small gift items"
+      ],
+      "use_case_tags": [
+        "jewellery packing",
+        "cosmetics packing",
+        "small ecommerce product",
+        "sample dispatch",
+        "courier",
+        "gifting"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹10/box 101–500 boxes: ₹7/box 501–2,000 boxes: ₹5.5/box 2,000+ boxes: ₹5/box  3 ply brown corrugated box, 4 × 3 × 3 inches (L × W × H). Suitable for jewellery, rings, earrings, small accessories, cosmetics, and lipstick. Useful for jewellery packing, cosmetics packing, small ecommerce product, and sample dispatch. Commonly searched as chhota dabba, mini dabba, small packing box, and jewellery box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1K1pIoE_bPXUztOcUHMlVHmRFT3LQJgUG",
+      "source_drive_url": "https://drive.google.com/file/d/1K1pIoE_bPXUztOcUHMlVHmRFT3LQJgUG/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-6.5x2.5x3",
+      "title": "3 Ply Brown Corrugated Box - 6.5 × 2.5 × 3 in",
+      "dimensions": {
+        "length": 6.5,
+        "breadth": 2.5,
+        "width": 3.0,
+        "display": "6.5 × 2.5 × 3"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "6.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 11.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 8.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 6.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 6.0
+        }
+      ],
+      "product_tags": [
+        "jewellery",
+        "bracelets",
+        "watches",
+        "belts/accessories",
+        "cables",
+        "small electronics",
+        "long accessories",
+        "pens",
+        "stationery",
+        "small tools",
+        "elongated products",
+        "samples"
+      ],
+      "use_case_tags": [
+        "accessory packing",
+        "ecommerce",
+        "courier",
+        "small product dispatch",
+        "sample packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹11/box 101–500 boxes: ₹8.5/box 501–2,000 boxes: ₹6.5/box 2,000+ boxes: ₹6/box  3 ply brown corrugated box, 6.5 × 2.5 × 3 inches (L × W × H). Suitable for jewellery, bracelets, watches, belts/accessories, cables, and small electronics. Useful for accessory packing, ecommerce, courier, and small product dispatch. Commonly searched as lamba patla dabba, long box, narrow box, and slim box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1oY_LJYOZL4rWICjfhKRGXnrgOL9DvjJa",
+      "source_drive_url": "https://drive.google.com/file/d/1oY_LJYOZL4rWICjfhKRGXnrgOL9DvjJa/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-5x4x3.5",
+      "title": "3 Ply Brown Corrugated Box - 5 × 4 × 3.5 in",
+      "dimensions": {
+        "length": 5.0,
+        "breadth": 4.0,
+        "width": 3.5,
+        "display": "5 × 4 × 3.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "8.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 11.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 10.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 8.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 8.0
+        }
+      ],
+      "product_tags": [
+        "cosmetics",
+        "skincare",
+        "small candles",
+        "soap",
+        "jewellery sets",
+        "accessories",
+        "small toys",
+        "stationery",
+        "small gifts",
+        "small electronics",
+        "samples"
+      ],
+      "use_case_tags": [
+        "product packing",
+        "ecommerce",
+        "retail packing",
+        "gift packing",
+        "courier"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹11/box 101–500 boxes: ₹10.5/box 501–2,000 boxes: ₹8.5/box 2,000+ boxes: ₹8/box  3 ply brown corrugated box, 5 × 4 × 3.5 inches (L × W × H). Suitable for cosmetics, skincare, small candles, soap, jewellery sets, and accessories. Useful for product packing, ecommerce, retail packing, and gift packing. Commonly searched as chhota-medium box, normal chhota box, small product box, and cosmetics dabba.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1jAb0fWM9CiHTleQiHy9HV-MoVZZEU95M",
+      "source_drive_url": "https://drive.google.com/file/d/1jAb0fWM9CiHTleQiHy9HV-MoVZZEU95M/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-6x4x3",
+      "title": "3 Ply Brown Corrugated Box - 6 × 4 × 3 in",
+      "dimensions": {
+        "length": 6.0,
+        "breadth": 4.0,
+        "width": 3.0,
+        "display": "6 × 4 × 3"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "7.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 11.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 9.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 7.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 7.0
+        }
+      ],
+      "product_tags": [
+        "jewellery sets",
+        "watches",
+        "cosmetics",
+        "skincare",
+        "wallets",
+        "small electronics",
+        "mobile accessories",
+        "stationery",
+        "small toys",
+        "gifts",
+        "accessories"
+      ],
+      "use_case_tags": [
+        "ecommerce shipping",
+        "retail packing",
+        "gift packing",
+        "courier",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹11.5/box 101–500 boxes: ₹9.5/box 501–2,000 boxes: ₹7.5/box 2,000+ boxes: ₹7/box  3 ply brown corrugated box, 6 × 4 × 3 inches (L × W × H). Suitable for jewellery sets, watches, cosmetics, skincare, wallets, and small electronics. Useful for ecommerce shipping, retail packing, gift packing, and courier. Commonly searched as small box, compact box, jewellery wala, and cosmetics wala.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1Jx8Rt--2ews5LZK4kD4D2-Tpie9FWTYa",
+      "source_drive_url": "https://drive.google.com/file/d/1Jx8Rt--2ews5LZK4kD4D2-Tpie9FWTYa/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-8x4x1.5",
+      "title": "3 Ply Brown Corrugated Box - 8 × 4 × 1.5 in",
+      "dimensions": {
+        "length": 8.0,
+        "breadth": 4.0,
+        "width": 1.5,
+        "display": "8 × 4 × 1.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "6.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 11.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 8.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 6.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 6.0
+        }
+      ],
+      "product_tags": [
+        "jewellery",
+        "watches",
+        "wallets",
+        "belts",
+        "stationery",
+        "documents",
+        "cards",
+        "photographs",
+        "small books",
+        "flat accessories",
+        "mobile accessories",
+        "cables",
+        "thin products"
+      ],
+      "use_case_tags": [
+        "flat-product packing",
+        "ecommerce",
+        "courier",
+        "document packing",
+        "retail packaging",
+        "small accessory dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹11/box 101–500 boxes: ₹8.5/box 501–2,000 boxes: ₹6.5/box 2,000+ boxes: ₹6/box  3 ply brown corrugated box, 8 × 4 × 1.5 inches (L × W × H). Suitable for jewellery, watches, wallets, belts, stationery, and documents. Useful for flat-product packing, ecommerce, courier, and document packing. Commonly searched as patla box, flat box, lamba patla dabba, and slim dabba.",
+      "image_url": "https://drive.google.com/uc?export=view&id=19NghbS2y5QamdGTWqtRePBuJw2qfEbXM",
+      "source_drive_url": "https://drive.google.com/file/d/19NghbS2y5QamdGTWqtRePBuJw2qfEbXM/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-8x6x2",
+      "title": "3 Ply Brown Corrugated Box - 8 × 6 × 2 in",
+      "dimensions": {
+        "length": 8.0,
+        "breadth": 6.0,
+        "width": 2.0,
+        "display": "8 × 6 × 2"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "7.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 12.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 9.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 7.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 7.0
+        }
+      ],
+      "product_tags": [
+        "jewellery",
+        "jewellery sets",
+        "watches",
+        "wallets",
+        "sunglasses",
+        "cosmetics",
+        "mobile accessories",
+        "small electronics",
+        "stationery",
+        "gift items",
+        "accessories",
+        "flat products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "jewellery packing",
+        "gifting",
+        "courier",
+        "retail packaging",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹12/box 101–500 boxes: ₹9.5/box 501–2,000 boxes: ₹7.5/box 2,000+ boxes: ₹7/box  3 ply brown corrugated box, 8 × 6 × 2 inches (L × W × H). Suitable for jewellery, jewellery sets, watches, wallets, sunglasses, and cosmetics. Useful for ecommerce, jewellery packing, gifting, and courier. Commonly searched as flat dabba, patla dabba, jewellery box, and accessories box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1GHghWzN_Me0GQwRegRDjOig9CkD2skbH",
+      "source_drive_url": "https://drive.google.com/file/d/1GHghWzN_Me0GQwRegRDjOig9CkD2skbH/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-7x4x2.5",
+      "title": "3 Ply Brown Corrugated Box - 7 × 4 × 2.5 in",
+      "dimensions": {
+        "length": 7.0,
+        "breadth": 4.0,
+        "width": 2.5,
+        "display": "7 × 4 × 2.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "8.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 12.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 10.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 8.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 8.0
+        }
+      ],
+      "product_tags": [
+        "jewellery",
+        "watches",
+        "wallets",
+        "cosmetics",
+        "accessories",
+        "small electronics",
+        "stationery",
+        "small gifts",
+        "mobile accessories",
+        "samples"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "courier",
+        "retail",
+        "gifting",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹12/box 101–500 boxes: ₹10.5/box 501–2,000 boxes: ₹8/box 2,000+ boxes: ₹8/box  3 ply brown corrugated box, 7 × 4 × 2.5 inches (L × W × H). Suitable for jewellery, watches, wallets, cosmetics, accessories, and small electronics. Useful for ecommerce, courier, retail, and gifting. Commonly searched as chhota box, flat box, patla dabba, and jewellery wala.",
+      "image_url": "https://drive.google.com/uc?export=view&id=108frVt4dNWw00VWNATPdSsZ3aCDBaEyI",
+      "source_drive_url": "https://drive.google.com/file/d/108frVt4dNWw00VWNATPdSsZ3aCDBaEyI/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-7x5x4",
+      "title": "3 Ply Brown Corrugated Box - 7 × 5 × 4 in",
+      "dimensions": {
+        "length": 7.0,
+        "breadth": 5.0,
+        "width": 4.0,
+        "display": "7 × 5 × 4"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "8.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 12.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 10.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 8.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 8.0
+        }
+      ],
+      "product_tags": [
+        "cosmetics",
+        "skincare",
+        "candles",
+        "soaps",
+        "small toys",
+        "jewellery sets",
+        "accessories",
+        "small electronics",
+        "gift sets",
+        "stationery",
+        "small handicrafts"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gift packing",
+        "retail packing",
+        "courier",
+        "combo packing",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹12/box 101–500 boxes: ₹10.5/box 501–2,000 boxes: ₹8.5/box 2,000+ boxes: ₹8/box  3 ply brown corrugated box, 7 × 5 × 4 inches (L × W × H). Suitable for cosmetics, skincare, candles, soaps, small toys, and jewellery sets. Useful for ecommerce, gift packing, retail packing, and courier. Commonly searched as medium chhota box, normal size box, gift dabba, and cosmetics packing.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1AOA8RY8yFTj-UHOV-m28vxmpMsgSbp0d",
+      "source_drive_url": "https://drive.google.com/file/d/1AOA8RY8yFTj-UHOV-m28vxmpMsgSbp0d/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-9x2x5",
+      "title": "3 Ply Brown Corrugated Box - 9 × 2 × 5 in",
+      "dimensions": {
+        "length": 9.0,
+        "breadth": 2.0,
+        "width": 5.0,
+        "display": "9 × 2 × 5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "7.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 12.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 9.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 7.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 7.0
+        }
+      ],
+      "product_tags": [
+        "bottles",
+        "perfume",
+        "cosmetics",
+        "long accessories",
+        "tools",
+        "cables",
+        "small electronics",
+        "cylindrical products",
+        "elongated products",
+        "stationery",
+        "pens",
+        "rolled products"
+      ],
+      "use_case_tags": [
+        "bottle packing",
+        "long product packing",
+        "ecommerce",
+        "courier",
+        "accessory dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹12/box 101–500 boxes: ₹9.5/box 501–2,000 boxes: ₹7.5/box 2,000+ boxes: ₹7/box  3 ply brown corrugated box, 9 × 2 × 5 inches (L × W × H). Suitable for bottles, perfume, cosmetics, long accessories, tools, and cables. Useful for bottle packing, long product packing, ecommerce, and courier. Commonly searched as lamba patla box, narrow box, bottle box, and perfume box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1CTA9_T52gAk0vfm61oY3ZiKnNJstnsJF",
+      "source_drive_url": "https://drive.google.com/file/d/1CTA9_T52gAk0vfm61oY3ZiKnNJstnsJF/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-8x2x8",
+      "title": "3 Ply Brown Corrugated Box - 8 × 2 × 8 in",
+      "dimensions": {
+        "length": 8.0,
+        "breadth": 2.0,
+        "width": 8.0,
+        "display": "8 × 2 × 8"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "9.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 14.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 11.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 9.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 9.0
+        }
+      ],
+      "product_tags": [
+        "bottles",
+        "perfume",
+        "long cylindrical products",
+        "cosmetics",
+        "tools",
+        "electronics",
+        "cables",
+        "long accessories",
+        "rolled items",
+        "narrow products"
+      ],
+      "use_case_tags": [
+        "bottle shipping",
+        "tall product packing",
+        "ecommerce",
+        "courier",
+        "vertical packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹14.5/box 101–500 boxes: ₹11.5/box 501–2,000 boxes: ₹9.5/box 2,000+ boxes: ₹9/box  3 ply brown corrugated box, 8 × 2 × 8 inches (L × W × H). Suitable for bottles, perfume, long cylindrical products, cosmetics, tools, and electronics. Useful for bottle shipping, tall product packing, ecommerce, and courier. Commonly searched as lamba box, tall box, narrow dabba, and bottle wala box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=11lNUxbw_vNMiEWyQAfdvfZTxj0UpHrDx",
+      "source_drive_url": "https://drive.google.com/file/d/11lNUxbw_vNMiEWyQAfdvfZTxj0UpHrDx/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-6.5x5.5x4.5",
+      "title": "3 Ply Brown Corrugated Box - 6.5 × 5.5 × 4.5 in",
+      "dimensions": {
+        "length": 6.5,
+        "breadth": 5.5,
+        "width": 4.5,
+        "display": "6.5 × 5.5 × 4.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "9.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 14.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 11.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 9.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 9.0
+        }
+      ],
+      "product_tags": [
+        "cosmetics",
+        "skincare",
+        "candles",
+        "soaps",
+        "jewellery sets",
+        "small electronics",
+        "toys",
+        "gift sets",
+        "accessories",
+        "handicrafts"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gifting",
+        "retail packaging",
+        "combo packing",
+        "courier"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹14.5/box 101–500 boxes: ₹11.5/box 501–2,000 boxes: ₹9.5/box 2,000+ boxes: ₹9/box  3 ply brown corrugated box, 6.5 × 5.5 × 4.5 inches (L × W × H). Suitable for cosmetics, skincare, candles, soaps, jewellery sets, and small electronics. Useful for ecommerce, gifting, retail packaging, and combo packing. Commonly searched as medium box, gift dabba, cosmetics box, and combo box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1X0wVPXJx6AR5Q9Vb_sM99FJtdpNO-wDM",
+      "source_drive_url": "https://drive.google.com/file/d/1X0wVPXJx6AR5Q9Vb_sM99FJtdpNO-wDM/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-9x5x6.5",
+      "title": "3 Ply Brown Corrugated Box - 9 × 5 × 6.5 in",
+      "dimensions": {
+        "length": 9.0,
+        "breadth": 5.0,
+        "width": 6.5,
+        "display": "9 × 5 × 6.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "11.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 17.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 14.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 12.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 11.0
+        }
+      ],
+      "product_tags": [
+        "shoes/accessories",
+        "handbags/small bags",
+        "cosmetics sets",
+        "gift sets",
+        "toys",
+        "electronics",
+        "home décor",
+        "larger accessories",
+        "multiple garments/accessories"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gift packing",
+        "retail",
+        "courier",
+        "combo packing",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹17.5/box 101–500 boxes: ₹14.5/box 501–2,000 boxes: ₹12.5/box 2,000+ boxes: ₹11/box  3 ply brown corrugated box, 9 × 5 × 6.5 inches (L × W × H). Suitable for shoes/accessories, handbags/small bags, cosmetics sets, gift sets, toys, and electronics. Useful for ecommerce, gift packing, retail, and courier. Commonly searched as medium-large box, bada chhota box, gift packing, and combo packing.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1gO6OgxX6KYOm7DmHP5D2N1y6X8CGhkFO",
+      "source_drive_url": "https://drive.google.com/file/d/1gO6OgxX6KYOm7DmHP5D2N1y6X8CGhkFO/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-9x6x4",
+      "title": "3 Ply Brown Corrugated Box - 9 × 6 × 4 in",
+      "dimensions": {
+        "length": 9.0,
+        "breadth": 6.0,
+        "width": 4.0,
+        "display": "9 × 6 × 4"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "10.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 15.8
+        },
+        {
+          "range": "101-500",
+          "price_inr": 12.8
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 10.8
+        },
+        {
+          "range": "2000+",
+          "price_inr": 10.0
+        }
+      ],
+      "product_tags": [
+        "cosmetics",
+        "skincare",
+        "candles",
+        "toys",
+        "electronics",
+        "accessories",
+        "gift sets",
+        "stationery",
+        "small home products",
+        "handicrafts"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "retail",
+        "gifting",
+        "courier",
+        "combo packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹15.8/box 101–500 boxes: ₹12.8/box 501–2,000 boxes: ₹10.8/box 2,000+ boxes: ₹10/box  3 ply brown corrugated box, 9 × 6 × 4 inches (L × W × H). Suitable for cosmetics, skincare, candles, toys, electronics, and accessories. Useful for ecommerce, retail, gifting, and courier. Commonly searched as medium box, normal box, gift dabba, and product box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1LBIC7XAgdsKyvq2p2OtyT4wjawlRfT1o",
+      "source_drive_url": "https://drive.google.com/file/d/1LBIC7XAgdsKyvq2p2OtyT4wjawlRfT1o/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-8.5x6x3",
+      "title": "3 Ply Brown Corrugated Box - 8.5 × 6 × 3 in",
+      "dimensions": {
+        "length": 8.5,
+        "breadth": 6.0,
+        "width": 3.0,
+        "display": "8.5 × 6 × 3"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "10.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 15.8
+        },
+        {
+          "range": "101-500",
+          "price_inr": 12.8
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 10.8
+        },
+        {
+          "range": "2000+",
+          "price_inr": 10.0
+        }
+      ],
+      "product_tags": [
+        "cosmetics",
+        "jewellery sets",
+        "watches",
+        "wallets",
+        "sunglasses",
+        "small electronics",
+        "stationery",
+        "accessories",
+        "candles",
+        "small gifts"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gift packing",
+        "retail",
+        "courier",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹15.8/box 101–500 boxes: ₹12.8/box 501–2,000 boxes: ₹10.8/box 2,000+ boxes: ₹10/box  3 ply brown corrugated box, 8.5 × 6 × 3 inches (L × W × H). Suitable for cosmetics, jewellery sets, watches, wallets, sunglasses, and small electronics. Useful for ecommerce, gift packing, retail, and courier. Commonly searched as medium-small box, flat-medium box, jewellery set box, and cosmetics dabba.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1fg2k0bE8OsIGWfoKvYN6GnGNenirAcnO",
+      "source_drive_url": "https://drive.google.com/file/d/1fg2k0bE8OsIGWfoKvYN6GnGNenirAcnO/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-8.5x7x6",
+      "title": "3 Ply Brown Corrugated Box - 8.5 × 7 × 6 in",
+      "dimensions": {
+        "length": 8.5,
+        "breadth": 7.0,
+        "width": 6.0,
+        "display": "8.5 × 7 × 6"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "13.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 19.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 16.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 14.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 13.0
+        }
+      ],
+      "product_tags": [
+        "shoes",
+        "toys",
+        "cosmetics sets",
+        "gift hampers",
+        "electronics",
+        "home décor",
+        "larger accessories",
+        "multiple small products",
+        "folded apparel",
+        "small household products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gift hamper",
+        "combo packing",
+        "retail",
+        "courier",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹19.5/box 101–500 boxes: ₹16.5/box 501–2,000 boxes: ₹14.5/box 2,000+ boxes: ₹13/box  3 ply brown corrugated box, 8.5 × 7 × 6 inches (L × W × H). Suitable for shoes, toys, cosmetics sets, gift hampers, electronics, and home décor. Useful for ecommerce, gift hamper, combo packing, and retail. Commonly searched as bada box, medium-large box, hamper box, and gift hamper packing.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1i2hRSM2BYp-A4Id5WsL0VWPoUgwDBN64",
+      "source_drive_url": "https://drive.google.com/file/d/1i2hRSM2BYp-A4Id5WsL0VWPoUgwDBN64/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-7.5x6.5x5",
+      "title": "3 Ply Brown Corrugated Box - 7.5 × 6.5 × 5 in",
+      "dimensions": {
+        "length": 7.5,
+        "breadth": 6.5,
+        "width": 5.0,
+        "display": "7.5 × 6.5 × 5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "11.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 17.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 14.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 12.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 11.0
+        }
+      ],
+      "product_tags": [
+        "cosmetics",
+        "candles",
+        "toys",
+        "electronics",
+        "gift sets",
+        "handicrafts",
+        "accessories",
+        "small home products",
+        "folded apparel",
+        "multiple products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gifting",
+        "retail",
+        "combo packing",
+        "courier"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹17.5/box 101–500 boxes: ₹14.5/box 501–2,000 boxes: ₹12.5/box 2,000+ boxes: ₹11/box  3 ply brown corrugated box, 7.5 × 6.5 × 5 inches (L × W × H). Suitable for cosmetics, candles, toys, electronics, gift sets, and handicrafts. Useful for ecommerce, gifting, retail, and combo packing. Commonly searched as medium box, gift dabba, combo box, and product packing.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1fkz-Yd_lj_Gi7Z39FxdkQbX476Nhi6MP",
+      "source_drive_url": "https://drive.google.com/file/d/1fkz-Yd_lj_Gi7Z39FxdkQbX476Nhi6MP/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-10x3.5x2",
+      "title": "3 Ply Brown Corrugated Box - 10 × 3.5 × 2 in",
+      "dimensions": {
+        "length": 10.0,
+        "breadth": 3.5,
+        "width": 2.0,
+        "display": "10 × 3.5 × 2"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "7.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 13.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 10.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 8.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 7.0
+        }
+      ],
+      "product_tags": [
+        "belts",
+        "wallets",
+        "ties",
+        "stationery",
+        "documents",
+        "accessories",
+        "cables",
+        "small tools",
+        "long flat products",
+        "slim electronics"
+      ],
+      "use_case_tags": [
+        "flat-product shipping",
+        "ecommerce",
+        "accessory packing",
+        "courier",
+        "document packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹13.5/box 101–500 boxes: ₹10.5/box 501–2,000 boxes: ₹8.5/box 2,000+ boxes: ₹7/box  3 ply brown corrugated box, 10 × 3.5 × 2 inches (L × W × H). Suitable for belts, wallets, ties, stationery, documents, and accessories. Useful for flat-product shipping, ecommerce, accessory packing, and courier. Commonly searched as lamba patla dabba, slim box, flat box, and belt box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1PCGYzDcy32vNc3uy4tN9QpD_GsdR2lLH",
+      "source_drive_url": "https://drive.google.com/file/d/1PCGYzDcy32vNc3uy4tN9QpD_GsdR2lLH/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-14x3.5x2",
+      "title": "3 Ply Brown Corrugated Box - 14 × 3.5 × 2 in",
+      "dimensions": {
+        "length": 14.0,
+        "breadth": 3.5,
+        "width": 2.0,
+        "display": "14 × 3.5 × 2"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "10.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 14.8
+        },
+        {
+          "range": "101-500",
+          "price_inr": 11.8
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 9.8
+        },
+        {
+          "range": "2000+",
+          "price_inr": 10.0
+        }
+      ],
+      "product_tags": [
+        "long accessories",
+        "belts",
+        "ties",
+        "posters/prints",
+        "stationery",
+        "long tools",
+        "cables",
+        "rolled/flat products",
+        "elongated products",
+        "documents"
+      ],
+      "use_case_tags": [
+        "long-product packing",
+        "courier",
+        "ecommerce",
+        "accessory shipping",
+        "flat-product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹14.8/box 101–500 boxes: ₹11.8/box 501–2,000 boxes: ₹9.8/box 2,000+ boxes: ₹10/box  3 ply brown corrugated box, 14 × 3.5 × 2 inches (L × W × H). Suitable for long accessories, belts, ties, posters/prints, stationery, and long tools. Useful for long-product packing, courier, ecommerce, and accessory shipping. Commonly searched as bahut lamba box, long box, extra long dabba, and patla lamba box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1wN-Uq5ffzE5ehXl7DVsXX3NSd4_YS04-",
+      "source_drive_url": "https://drive.google.com/file/d/1wN-Uq5ffzE5ehXl7DVsXX3NSd4_YS04-/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-11x8x7",
+      "title": "3 Ply Brown Corrugated Box - 11 × 8 × 7 in",
+      "dimensions": {
+        "length": 11.0,
+        "breadth": 8.0,
+        "width": 7.0,
+        "display": "11 × 8 × 7"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "16.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 23.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 19.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 17.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 16.0
+        }
+      ],
+      "product_tags": [
+        "shoes",
+        "clothing sets",
+        "handbags",
+        "toys",
+        "electronics",
+        "home décor",
+        "gift hampers",
+        "multiple cosmetics",
+        "larger accessories",
+        "small appliances/accessories"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gift hamper",
+        "combo packing",
+        "retail",
+        "courier",
+        "marketplace dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹23/box 101–500 boxes: ₹19/box 501–2,000 boxes: ₹17/box 2,000+ boxes: ₹16/box  3 ply brown corrugated box, 11 × 8 × 7 inches (L × W × H). Suitable for shoes, clothing sets, handbags, toys, electronics, and home décor. Useful for ecommerce, gift hamper, combo packing, and retail. Commonly searched as bada dabba, large box, hamper box, and gift hamper.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1krQ56UfOzqaNEjiNeL7oylqu2c8O3BGV",
+      "source_drive_url": "https://drive.google.com/file/d/1krQ56UfOzqaNEjiNeL7oylqu2c8O3BGV/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-12x8x5",
+      "title": "3 Ply Brown Corrugated Box - 12 × 8 × 5 in",
+      "dimensions": {
+        "length": 12.0,
+        "breadth": 8.0,
+        "width": 5.0,
+        "display": "12 × 8 × 5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "15.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 21.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 18.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 16.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 15.0
+        }
+      ],
+      "product_tags": [
+        "footwear",
+        "clothing",
+        "folded T-shirts",
+        "shirts",
+        "kids clothing",
+        "handbags",
+        "toys",
+        "electronics",
+        "gift sets",
+        "home décor",
+        "multiple products"
+      ],
+      "use_case_tags": [
+        "apparel shipping",
+        "ecommerce",
+        "marketplace dispatch",
+        "gift packing",
+        "retail",
+        "courier",
+        "combo packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹21/box 101–500 boxes: ₹18/box 501–2,000 boxes: ₹16/box 2,000+ boxes: ₹15/box  3 ply brown corrugated box, 12 × 8 × 5 inches (L × W × H). Suitable for footwear, clothing, folded T-shirts, shirts, kids clothing, and handbags. Useful for apparel shipping, ecommerce, marketplace dispatch, and gift packing. Commonly searched as t-shirt box, clothes box, kapdon ka dabba, and apparel box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1RGvdcgLDtkDVpt10BtK3ZZuapZAn0CWN",
+      "source_drive_url": "https://drive.google.com/file/d/1RGvdcgLDtkDVpt10BtK3ZZuapZAn0CWN/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-12x4x13",
+      "title": "3 Ply Brown Corrugated Box - 12 × 4 × 13 in",
+      "dimensions": {
+        "length": 12.0,
+        "breadth": 4.0,
+        "width": 13.0,
+        "display": "12 × 4 × 13"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "15.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 21.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 18.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 16.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 15.0
+        }
+      ],
+      "product_tags": [
+        "bottles",
+        "perfume",
+        "long bottles",
+        "cosmetics",
+        "tall products",
+        "umbrellas/small elongated items",
+        "tubes",
+        "cylindrical products",
+        "long electronics",
+        "tools",
+        "rolled products"
+      ],
+      "use_case_tags": [
+        "bottle shipping",
+        "tall product shipping",
+        "ecommerce",
+        "courier",
+        "vertical packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹21/box 101–500 boxes: ₹18/box 501–2,000 boxes: ₹16/box 2,000+ boxes: ₹15/box  3 ply brown corrugated box, 12 × 4 × 13 inches (L × W × H). Suitable for bottles, perfume, long bottles, cosmetics, tall products, and umbrellas/small elongated items. Useful for bottle shipping, tall product shipping, ecommerce, and courier. Commonly searched as lamba dabba, tall box, bottle box, and perfume box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1IyHIluKPyWa5fXOKV0c5vTZ49vlslj39",
+      "source_drive_url": "https://drive.google.com/file/d/1IyHIluKPyWa5fXOKV0c5vTZ49vlslj39/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-5x5x6.5",
+      "title": "3 Ply Brown Corrugated Box - 5 × 5 × 6.5 in",
+      "dimensions": {
+        "length": 5.0,
+        "breadth": 5.0,
+        "width": 6.5,
+        "display": "5 × 5 × 6.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "8.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 14.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 11.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 9.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 8.0
+        }
+      ],
+      "product_tags": [
+        "bottles",
+        "cosmetics",
+        "candles",
+        "toys",
+        "electronics",
+        "gift sets",
+        "small home décor",
+        "handicrafts",
+        "cylindrical products",
+        "medium-height products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gift packing",
+        "retail",
+        "courier",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹14/box 101–500 boxes: ₹11/box 501–2,000 boxes: ₹9/box 2,000+ boxes: ₹8/box  3 ply brown corrugated box, 5 × 5 × 6.5 inches (L × W × H). Suitable for bottles, cosmetics, candles, toys, electronics, and gift sets. Useful for ecommerce, gift packing, retail, and courier. Commonly searched as tall small box, vertical dabba, bottle box, and candle box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1IxYZO4b69k2e8L_urCHUG_Mvkr9cFaEp",
+      "source_drive_url": "https://drive.google.com/file/d/1IxYZO4b69k2e8L_urCHUG_Mvkr9cFaEp/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-11x3x10.5",
+      "title": "3 Ply Brown Corrugated Box - 11 × 3 × 10.5 in",
+      "dimensions": {
+        "length": 11.0,
+        "breadth": 3.0,
+        "width": 10.5,
+        "display": "11 × 3 × 10.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "13.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 19.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 16.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 14.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 13.0
+        }
+      ],
+      "product_tags": [
+        "bottles",
+        "long electronics",
+        "tools",
+        "rolled products",
+        "posters/prints",
+        "long accessories",
+        "cylindrical items",
+        "tall narrow products",
+        "specialty products"
+      ],
+      "use_case_tags": [
+        "tall-product shipping",
+        "long-product shipping",
+        "ecommerce",
+        "courier",
+        "vertical packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹19.5/box 101–500 boxes: ₹16.5/box 501–2,000 boxes: ₹14.5/box 2,000+ boxes: ₹13/box  3 ply brown corrugated box, 11 × 3 × 10.5 inches (L × W × H). Suitable for bottles, long electronics, tools, rolled products, posters/prints, and long accessories. Useful for tall-product shipping, long-product shipping, ecommerce, and courier. Commonly searched as lamba patla box, tall narrow box, long dabba, and bottle packing.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1X8mJlOQ-x2P8iUHWBO_mKO3I10AmRHy2",
+      "source_drive_url": "https://drive.google.com/file/d/1X8mJlOQ-x2P8iUHWBO_mKO3I10AmRHy2/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-8x8x8",
+      "title": "3 Ply Brown Corrugated Box - 8 × 8 × 8 in",
+      "dimensions": {
+        "length": 8.0,
+        "breadth": 8.0,
+        "width": 8.0,
+        "display": "8 × 8 × 8"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "15.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 21.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 18.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 16.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 15.0
+        }
+      ],
+      "product_tags": [
+        "shoes",
+        "toys",
+        "electronics",
+        "home décor",
+        "gift hampers",
+        "cosmetics sets",
+        "small appliances",
+        "bulky accessories",
+        "multiple products",
+        "cube-shaped products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gift hamper",
+        "combo packing",
+        "courier",
+        "retail",
+        "marketplace shipping"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹21/box 101–500 boxes: ₹18/box 501–2,000 boxes: ₹16/box 2,000+ boxes: ₹15/box  3 ply brown corrugated box, 8 × 8 × 8 inches (L × W × H). Suitable for shoes, toys, electronics, home décor, gift hampers, and cosmetics sets. Useful for ecommerce, gift hamper, combo packing, and courier. Commonly searched as square box, cube box, bada dabba, and hamper box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1k-mnxqXd0gBgA5ZZXHI5CXCEFRGiwQ0m",
+      "source_drive_url": "https://drive.google.com/file/d/1k-mnxqXd0gBgA5ZZXHI5CXCEFRGiwQ0m/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-9x7x7",
+      "title": "3 Ply Brown Corrugated Box - 9 × 7 × 7 in",
+      "dimensions": {
+        "length": 9.0,
+        "breadth": 7.0,
+        "width": 7.0,
+        "display": "9 × 7 × 7"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "15.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 21.2
+        },
+        {
+          "range": "101-500",
+          "price_inr": 18.2
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 16.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 15.0
+        }
+      ],
+      "product_tags": [
+        "shoes",
+        "toys",
+        "electronics",
+        "handbags",
+        "home décor",
+        "gift sets",
+        "cosmetics sets",
+        "accessories",
+        "multiple products",
+        "bulky products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "courier",
+        "gift hamper",
+        "combo packing",
+        "retail",
+        "marketplace dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹21.2/box 101–500 boxes: ₹18.2/box 501–2,000 boxes: ₹16/box 2,000+ boxes: ₹15/box  3 ply brown corrugated box, 9 × 7 × 7 inches (L × W × H). Suitable for shoes, toys, electronics, handbags, home décor, and gift sets. Useful for ecommerce, courier, gift hamper, and combo packing. Commonly searched as bada box, square-ish box, hamper box, and gift packing.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1vKumY6Rsp_l4wdj_xF9gsxJHplQdgDs8",
+      "source_drive_url": "https://drive.google.com/file/d/1vKumY6Rsp_l4wdj_xF9gsxJHplQdgDs8/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-6x5x1.5",
+      "title": "3 Ply Brown Corrugated Box - 6 × 5 × 1.5 in",
+      "dimensions": {
+        "length": 6.0,
+        "breadth": 5.0,
+        "width": 1.5,
+        "display": "6 × 5 × 1.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "7.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 13.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 10.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 8.2
+        },
+        {
+          "range": "2000+",
+          "price_inr": 7.0
+        }
+      ],
+      "product_tags": [
+        "jewellery",
+        "watches",
+        "wallets",
+        "sunglasses",
+        "cards",
+        "stationery",
+        "documents",
+        "mobile accessories",
+        "cables",
+        "flat accessories",
+        "small electronics"
+      ],
+      "use_case_tags": [
+        "flat-product packing",
+        "jewellery packing",
+        "ecommerce",
+        "courier",
+        "accessory dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹13.5/box 101–500 boxes: ₹10.5/box 501–2,000 boxes: ₹8.2/box 2,000+ boxes: ₹7/box  3 ply brown corrugated box, 6 × 5 × 1.5 inches (L × W × H). Suitable for jewellery, watches, wallets, sunglasses, cards, and stationery. Useful for flat-product packing, jewellery packing, ecommerce, and courier. Commonly searched as patla dabba, flat box, low height box, and jewellery box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1Y8tVaO0dMw9utXGbAr3Nh8QZVCrV5Ozu",
+      "source_drive_url": "https://drive.google.com/file/d/1Y8tVaO0dMw9utXGbAr3Nh8QZVCrV5Ozu/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-7x7x3",
+      "title": "3 Ply Brown Corrugated Box - 7 × 7 × 3 in",
+      "dimensions": {
+        "length": 7.0,
+        "breadth": 7.0,
+        "width": 3.0,
+        "display": "7 × 7 × 3"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "9.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 15.6
+        },
+        {
+          "range": "101-500",
+          "price_inr": 12.6
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 10.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 9.0
+        }
+      ],
+      "product_tags": [
+        "jewellery sets",
+        "watches",
+        "cosmetics",
+        "candles",
+        "stationery",
+        "small electronics",
+        "accessories",
+        "gift items",
+        "small toys",
+        "flat-ish products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gift packing",
+        "retail",
+        "courier",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹15.6/box 101–500 boxes: ₹12.6/box 501–2,000 boxes: ₹10/box 2,000+ boxes: ₹9/box  3 ply brown corrugated box, 7 × 7 × 3 inches (L × W × H). Suitable for jewellery sets, watches, cosmetics, candles, stationery, and small electronics. Useful for ecommerce, gift packing, retail, and courier. Commonly searched as square box, flat square box, jewellery packing, and gift dabba.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1DXAuE17je6JsrXMUMxLRJpfB_El0w2b9",
+      "source_drive_url": "https://drive.google.com/file/d/1DXAuE17je6JsrXMUMxLRJpfB_El0w2b9/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-7x7x4",
+      "title": "3 Ply Brown Corrugated Box - 7 × 7 × 4 in",
+      "dimensions": {
+        "length": 7.0,
+        "breadth": 7.0,
+        "width": 4.0,
+        "display": "7 × 7 × 4"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "10.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 16.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 13.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 11.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 10.0
+        }
+      ],
+      "product_tags": [
+        "cosmetics",
+        "candles",
+        "jewellery sets",
+        "toys",
+        "electronics",
+        "accessories",
+        "gift sets",
+        "stationery",
+        "small home products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gifting",
+        "retail",
+        "courier",
+        "combo packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹16/box 101–500 boxes: ₹13/box 501–2,000 boxes: ₹11/box 2,000+ boxes: ₹10/box  3 ply brown corrugated box, 7 × 7 × 4 inches (L × W × H). Suitable for cosmetics, candles, jewellery sets, toys, electronics, and accessories. Useful for ecommerce, gifting, retail, and courier. Commonly searched as square box, gift box, combo box, and cosmetics dabba.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1Y_gkGClS7vUOG4CTTkGPMXsYd4qRyJiz",
+      "source_drive_url": "https://drive.google.com/file/d/1Y_gkGClS7vUOG4CTTkGPMXsYd4qRyJiz/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-10x5x5",
+      "title": "3 Ply Brown Corrugated Box - 10 × 5 × 5 in",
+      "dimensions": {
+        "length": 10.0,
+        "breadth": 5.0,
+        "width": 5.0,
+        "display": "10 × 5 × 5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "10.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 16.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 13.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 11.5
+        },
+        {
+          "range": "2000+",
+          "price_inr": 10.0
+        }
+      ],
+      "product_tags": [
+        "shoes/accessories",
+        "cosmetics sets",
+        "toys",
+        "electronics",
+        "candles",
+        "gift sets",
+        "handbags/small bags",
+        "folded apparel",
+        "home décor",
+        "multiple products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "gift packing",
+        "combo packing",
+        "retail",
+        "courier"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹16.5/box 101–500 boxes: ₹13.5/box 501–2,000 boxes: ₹11.5/box 2,000+ boxes: ₹10/box  3 ply brown corrugated box, 10 × 5 × 5 inches (L × W × H). Suitable for shoes/accessories, cosmetics sets, toys, electronics, candles, and gift sets. Useful for ecommerce, gift packing, combo packing, and retail. Commonly searched as medium box, product box, gift box, and combo packing.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1EikyKV95T87sqxLALFJS47TD1hQLIyY8",
+      "source_drive_url": "https://drive.google.com/file/d/1EikyKV95T87sqxLALFJS47TD1hQLIyY8/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-16x11x11",
+      "title": "3 Ply Brown Corrugated Box - 16 × 11 × 11 in",
+      "dimensions": {
+        "length": 16.0,
+        "breadth": 11.0,
+        "width": 11.0,
+        "display": "16 × 11 × 11"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "24.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 32.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 28.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 25.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 24.0
+        }
+      ],
+      "product_tags": [
+        "footwear",
+        "clothing",
+        "jackets",
+        "multiple T-shirts",
+        "garments",
+        "handbags",
+        "toys",
+        "home décor",
+        "large gift hampers",
+        "multiple products",
+        "bulky items"
+      ],
+      "use_case_tags": [
+        "apparel shipping",
+        "ecommerce",
+        "marketplace dispatch",
+        "large parcel",
+        "gift hamper",
+        "bulk product packing",
+        "courier"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹32/box 101–500 boxes: ₹28/box 501–2,000 boxes: ₹25/box 2,000+ boxes: ₹24/box  3 ply brown corrugated box, 16 × 11 × 11 inches (L × W × H). Suitable for footwear, clothing, jackets, multiple T-shirts, garments, and handbags. Useful for apparel shipping, ecommerce, marketplace dispatch, and large parcel. Commonly searched as bada carton, large box, kapdon ka bada dabba, and t-shirt box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1aaWq32lsxY4_6gWzLjtQoXvFrPiM1Whg",
+      "source_drive_url": "https://drive.google.com/file/d/1aaWq32lsxY4_6gWzLjtQoXvFrPiM1Whg/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-21x13x13",
+      "title": "3 Ply Brown Corrugated Box - 21 × 13 × 13 in",
+      "dimensions": {
+        "length": 21.0,
+        "breadth": 13.0,
+        "width": 13.0,
+        "display": "21 × 13 × 13"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "36.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 45.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 42.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 38.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 36.0
+        }
+      ],
+      "product_tags": [
+        "large garments",
+        "jackets",
+        "multiple clothes",
+        "shoes",
+        "large toys",
+        "home décor",
+        "large gift hampers",
+        "bulky products",
+        "multiple products",
+        "large ecommerce orders"
+      ],
+      "use_case_tags": [
+        "large parcel",
+        "ecommerce",
+        "marketplace shipping",
+        "bulk product dispatch",
+        "large hamper",
+        "courier",
+        "storage/transport"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹45/box 101–500 boxes: ₹42/box 501–2,000 boxes: ₹38/box 2,000+ boxes: ₹36/box  3 ply brown corrugated box, 21 × 13 × 13 inches (L × W × H). Suitable for large garments, jackets, multiple clothes, shoes, large toys, and home décor. Useful for large parcel, ecommerce, marketplace shipping, and bulk product dispatch. Commonly searched as bahut bada box, extra large carton, bada carton, and large parcel box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1A0aMYcnTQcYh_gdeROQR01rOOP59kjLy",
+      "source_drive_url": "https://drive.google.com/file/d/1A0aMYcnTQcYh_gdeROQR01rOOP59kjLy/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-12x4.5x4.5",
+      "title": "3 Ply Brown Corrugated Box - 12 × 4.5 × 4.5 in",
+      "dimensions": {
+        "length": 12.0,
+        "breadth": 4.5,
+        "width": 4.5,
+        "display": "12 × 4.5 × 4.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "11.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 17.2
+        },
+        {
+          "range": "101-500",
+          "price_inr": 14.2
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 12.2
+        },
+        {
+          "range": "2000+",
+          "price_inr": 11.0
+        }
+      ],
+      "product_tags": [
+        "bottles",
+        "cosmetics",
+        "candles",
+        "long accessories",
+        "electronics",
+        "tools",
+        "gift items",
+        "cylindrical products",
+        "small home products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "bottle packing",
+        "product dispatch",
+        "courier",
+        "gift packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹17.2/box 101–500 boxes: ₹14.2/box 501–2,000 boxes: ₹12.2/box 2,000+ boxes: ₹11/box  3 ply brown corrugated box, 12 × 4.5 × 4.5 inches (L × W × H). Suitable for bottles, cosmetics, candles, long accessories, electronics, and tools. Useful for ecommerce, bottle packing, product dispatch, and courier. Commonly searched as lamba box, bottle box, narrow box, and cosmetics box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1QDDCMnSzyKBocpp7tAM1xw9Q5TMtC1_Y",
+      "source_drive_url": "https://drive.google.com/file/d/1QDDCMnSzyKBocpp7tAM1xw9Q5TMtC1_Y/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-3x3x2",
+      "title": "3 Ply Brown Corrugated Box - 3 × 3 × 2 in",
+      "dimensions": {
+        "length": 3.0,
+        "breadth": 3.0,
+        "width": 2.0,
+        "display": "3 × 3 × 2"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "4.20 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 7.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 6.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 5.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 4.2
+        }
+      ],
+      "product_tags": [
+        "jewellery",
+        "rings",
+        "earrings",
+        "tiny accessories",
+        "electronic components",
+        "small spare parts",
+        "samples",
+        "tiny gifts",
+        "small stationery"
+      ],
+      "use_case_tags": [
+        "micro-product packing",
+        "sample packing",
+        "jewellery packing",
+        "small ecommerce",
+        "courier"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹7.5/box 101–500 boxes: ₹6/box 501–2,000 boxes: ₹5/box 2,000+ boxes: ₹4.2/box  3 ply brown corrugated box, 3 × 3 × 2 inches (L × W × H). Suitable for jewellery, rings, earrings, tiny accessories, electronic components, and small spare parts. Useful for micro-product packing, sample packing, jewellery packing, and small ecommerce. Commonly searched as sabse chhota box, tiny box, mini dabba, and jewellery dabba.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1Wi_mrgJGgEtIbS5zrPf1wb6-XqHj0Nsv",
+      "source_drive_url": "https://drive.google.com/file/d/1Wi_mrgJGgEtIbS5zrPf1wb6-XqHj0Nsv/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-8x3x5",
+      "title": "3 Ply Brown Corrugated Box - 8 × 3 × 5 in",
+      "dimensions": {
+        "length": 8.0,
+        "breadth": 3.0,
+        "width": 5.0,
+        "display": "8 × 3 × 5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "7.20 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 13.2
+        },
+        {
+          "range": "101-500",
+          "price_inr": 10.2
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 8.2
+        },
+        {
+          "range": "2000+",
+          "price_inr": 7.2
+        }
+      ],
+      "product_tags": [
+        "bottles",
+        "perfume",
+        "cosmetics",
+        "candles",
+        "long electronics",
+        "tools",
+        "stationery",
+        "accessories",
+        "cylindrical products",
+        "small toys"
+      ],
+      "use_case_tags": [
+        "bottle packing",
+        "ecommerce",
+        "courier",
+        "retail",
+        "gift packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹13.2/box 101–500 boxes: ₹10.2/box 501–2,000 boxes: ₹8.2/box 2,000+ boxes: ₹7.2/box  3 ply brown corrugated box, 8 × 3 × 5 inches (L × W × H). Suitable for bottles, perfume, cosmetics, candles, long electronics, and tools. Useful for bottle packing, ecommerce, courier, and retail. Commonly searched as bottle box, perfume box, lamba box, and narrow box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1P5zOSXbXmEQB3wtYHt8FEwRcugi70dww",
+      "source_drive_url": "https://drive.google.com/file/d/1P5zOSXbXmEQB3wtYHt8FEwRcugi70dww/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-11x10x5",
+      "title": "3 Ply Brown Corrugated Box - 11 × 10 × 5 in",
+      "dimensions": {
+        "length": 11.0,
+        "breadth": 10.0,
+        "width": 5.0,
+        "display": "11 × 10 × 5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "16.50 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 24.0
+        },
+        {
+          "range": "101-500",
+          "price_inr": 21.0
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 18.0
+        },
+        {
+          "range": "2000+",
+          "price_inr": 16.5
+        }
+      ],
+      "product_tags": [
+        "footwear",
+        "clothing",
+        "folded T-shirts",
+        "shirts",
+        "kids clothing",
+        "handbags",
+        "toys",
+        "electronics",
+        "home décor",
+        "gift sets",
+        "multiple products"
+      ],
+      "use_case_tags": [
+        "apparel shipping",
+        "ecommerce",
+        "marketplace dispatch",
+        "courier",
+        "gift packing",
+        "combo packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹24/box 101–500 boxes: ₹21/box 501–2,000 boxes: ₹18/box 2,000+ boxes: ₹16.5/box  3 ply brown corrugated box, 11 × 10 × 5 inches (L × W × H). Suitable for footwear, clothing, folded T-shirts, shirts, kids clothing, and handbags. Useful for apparel shipping, ecommerce, marketplace dispatch, and courier. Commonly searched as kapdon ka box, t-shirt box, clothes box, and footwear box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1sxpdpXoOVi4Nnj9D-Tze6yRdg5sroWWB",
+      "source_drive_url": "https://drive.google.com/file/d/1sxpdpXoOVi4Nnj9D-Tze6yRdg5sroWWB/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-8.5x4x4.5",
+      "title": "3 Ply Brown Corrugated Box - 8.5 × 4 × 4.5 in",
+      "dimensions": {
+        "length": 8.5,
+        "breadth": 4.0,
+        "width": 4.5,
+        "display": "8.5 × 4 × 4.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "10.50 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 16.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 13.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 11.2
+        },
+        {
+          "range": "2000+",
+          "price_inr": 10.5
+        }
+      ],
+      "product_tags": [
+        "cosmetics",
+        "candles",
+        "bottles",
+        "small electronics",
+        "accessories",
+        "toys",
+        "gift items",
+        "stationery",
+        "small home products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "courier",
+        "retail",
+        "gift packing",
+        "product dispatch"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹16.5/box 101–500 boxes: ₹13.5/box 501–2,000 boxes: ₹11.2/box 2,000+ boxes: ₹10.5/box  3 ply brown corrugated box, 8.5 × 4 × 4.5 inches (L × W × H). Suitable for cosmetics, candles, bottles, small electronics, accessories, and toys. Useful for ecommerce, courier, retail, and gift packing. Commonly searched as small-medium box, cosmetics box, candle box, and product dabba.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1gz0ltpIlmUljqWNzbMbg_0tswScCPuLz",
+      "source_drive_url": "https://drive.google.com/file/d/1gz0ltpIlmUljqWNzbMbg_0tswScCPuLz/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-9.5x7.5x3.5",
+      "title": "3 Ply Brown Corrugated Box - 9.5 × 7.5 × 3.5 in",
+      "dimensions": {
+        "length": 9.5,
+        "breadth": 7.5,
+        "width": 3.5,
+        "display": "9.5 × 7.5 × 3.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "13.50 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 19.5
+        },
+        {
+          "range": "101-500",
+          "price_inr": 16.5
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 14.2
+        },
+        {
+          "range": "2000+",
+          "price_inr": 13.5
+        }
+      ],
+      "product_tags": [
+        "jewellery sets",
+        "cosmetics",
+        "watches",
+        "wallets",
+        "sunglasses",
+        "stationery",
+        "electronics",
+        "accessories",
+        "candles",
+        "gift items",
+        "flat-ish products"
+      ],
+      "use_case_tags": [
+        "ecommerce",
+        "jewellery packing",
+        "gifting",
+        "retail",
+        "courier",
+        "multi-item packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹19.5/box 101–500 boxes: ₹16.5/box 501–2,000 boxes: ₹14.2/box 2,000+ boxes: ₹13.5/box  3 ply brown corrugated box, 9.5 × 7.5 × 3.5 inches (L × W × H). Suitable for jewellery sets, cosmetics, watches, wallets, sunglasses, and stationery. Useful for ecommerce, jewellery packing, gifting, and retail. Commonly searched as flat box, broad box, jewellery set box, and cosmetics box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1EhvYQCpcef9T6fqMu2KfFjXU6dNuBMgY",
+      "source_drive_url": "https://drive.google.com/file/d/1EhvYQCpcef9T6fqMu2KfFjXU6dNuBMgY/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    },
+    {
+      "id": "PACKNITI-3PLY-10x9x3.5",
+      "title": "3 Ply Brown Corrugated Box - 10 × 9 × 3.5 in",
+      "dimensions": {
+        "length": 10.0,
+        "breadth": 9.0,
+        "width": 3.5,
+        "display": "10 × 9 × 3.5"
+      },
+      "material": "Corrugated paper",
+      "color": "Brown",
+      "availability": "in stock",
+      "condition": "new",
+      "brand": "PackNiti",
+      "base_price": "17.00 INR",
+      "pricing": [
+        {
+          "range": "1-100",
+          "price_inr": 23.2
+        },
+        {
+          "range": "101-500",
+          "price_inr": 20.2
+        },
+        {
+          "range": "501-2000",
+          "price_inr": 18.2
+        },
+        {
+          "range": "2000+",
+          "price_inr": 17.0
+        }
+      ],
+      "product_tags": [
+        "clothing",
+        "folded T-shirts",
+        "shirts",
+        "jewellery sets",
+        "cosmetics",
+        "footwear accessories",
+        "stationery",
+        "electronics",
+        "gift sets",
+        "accessories",
+        "flat/broad products"
+      ],
+      "use_case_tags": [
+        "apparel packing",
+        "ecommerce",
+        "gift packing",
+        "retail",
+        "courier",
+        "marketplace dispatch",
+        "multi-item packing"
+      ],
+      "description": "BULK PRICING ≤100 boxes: ₹23.2/box 101–500 boxes: ₹20.2/box 501–2,000 boxes: ₹18.2/box 2,000+ boxes: ₹17/box  3 ply brown corrugated box, 10 × 9 × 3.5 inches (L × W × H). Suitable for clothing, folded T-shirts, shirts, jewellery sets, cosmetics, and footwear accessories. Useful for apparel packing, ecommerce, gift packing, and retail. Commonly searched as t-shirt box, clothes box, kapdon ka dabba, and flat box.",
+      "image_url": "https://drive.google.com/uc?export=view&id=1D-f2Ur0gg5gqyYn9DF2G7bI5O2Wtj05x",
+      "source_drive_url": "https://drive.google.com/file/d/1D-f2Ur0gg5gqyYn9DF2G7bI5O2Wtj05x/view",
+      "product_style": "Packaging box",
+      "google_product_category": 973,
+      "facebook_product_category": null
+    }
+  ]
+}
