@@ -28,3 +28,6 @@ textarea:focus{border-color:var(--kraft);background:#fff}
 .summary-image img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important;padding:4px!important;margin:0!important;mix-blend-mode:multiply}
 .brand-logo{display:block;width:180px;height:58px;object-fit:contain;object-position:center}
 @media(max-width:650px){.brand-logo{width:145px;height:52px}}
+
+
+.primary-btn:disabled{cursor:wait;opacity:.7;transform:none!important}.primary-btn:disabled:hover{background:var(--ink);transform:none!important}

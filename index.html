@@ -1,77 +1,26 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PackNiti — Find the box that fits.</title>
-<meta name="description" content="Ready-size 3-ply brown corrugated boxes with transparent quantity pricing. Find the right size and order from PackNiti.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="index.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PackNiti — Ready-Size Corrugated Boxes</title>
+<meta name="description" content="Buy ready-size 3-ply brown corrugated boxes with clear quantity pricing. Find the right box size with PackNiti's Box Finder.">
+<link rel="canonical" href="https://packniti.co.in/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="PackNiti"><meta property="og:title" content="PackNiti — Ready-Size Corrugated Boxes"><meta property="og:description" content="Find ready-size 3-ply brown corrugated boxes by dimensions, compare quantity pricing and order from PackNiti."><meta property="og:url" content="https://packniti.co.in/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="index.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PackNiti","url":"https://packniti.co.in/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"PackNiti","url":"https://packniti.co.in/"}</script>
 </head>
 <body>
-<header class="topbar">
-  <a class="brand" href="index.html" aria-label="PackNiti home"><img src="assets/packniti-header-logo.png" alt="PackNiti" class="brand-logo"></a>
-  <nav><a href="boxes.html">Boxes</a><a href="custom.html">Custom Boxes</a><a href="contact.html">Contact</a></nav>
-  <div class="nav-actions">
-    <a class="cart-link" href="cart.html" aria-label="Open cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H7"/><circle cx="10" cy="20" r="1.3"/><circle cx="18" cy="20" r="1.3"/></svg><span>Cart</span><b class="cart-count hidden" data-cart-count>0</b></a>
-    <a class="contact-link" href="contact.html">Contact Us →</a>
-  </div>
-  <button class="menu" aria-label="Open menu">☰</button>
-</header>
-
+<header class="topbar"><a class="brand" href="index.html" aria-label="PackNiti home"><img src="assets/packniti-header-logo.png" alt="PackNiti" class="brand-logo"></a><nav><a href="boxes.html">Boxes</a><a href="box-size-chart.html">Size Chart</a><a href="custom.html">Custom Boxes</a><a href="contact.html">Contact</a></nav><div class="nav-actions"><a class="cart-link" href="cart.html" aria-label="Open cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H7"/><circle cx="10" cy="20" r="1.3"/><circle cx="18" cy="20" r="1.3"/></svg><span>Cart</span><b class="cart-count hidden" data-cart-count>0</b></a><a class="contact-link" href="contact.html">Contact Us →</a></div><button class="menu" aria-label="Open menu">☰</button></header>
 <main>
-<section class="hero">
-  <div class="hero-copy">
-    <div class="eyebrow">PACKNITI · CORRUGATED PACKAGING</div>
-    <h1>Find the box<br><em>that fits.</em></h1>
-    <p class="hero-lead">Ready-size 3-ply brown corrugated boxes with clear quantity pricing. Find your size, choose your quantity, and get packing moving.</p>
-    <div class="hero-actions"><a class="primary" href="boxes.html#finder">Find Your Box <span>→</span></a><a class="secondary" href="custom.html">Need a custom size?</a></div>
-    <div class="hero-proof"><span>✓ Ready-size catalogue</span><span>✓ Live quantity pricing</span><span>✓ Simple checkout</span></div>
-  </div>
-  <div class="hero-visual" aria-label="PackNiti corrugated boxes advertisement">
-    <img class="hero-ad" src="assets/packniti-hero-ad.png" alt="A selection of PackNiti corrugated cardboard boxes ready for packing">
-  </div>
-</section>
-
-<section class="finder-strip">
-  <div><span class="eyebrow">START HERE</span><h2>Know your dimensions?</h2><p>Search by length × breadth × height. Exact matches come first; closest available sizes follow.</p></div>
-  <a href="boxes.html#finder" class="finder-action"><span><b>Find by size</b><small>Open the Box Finder</small></span><strong>→</strong></a>
-</section>
-
-<section class="catalogue-section">
-  <div class="section-head"><div><span class="eyebrow">READY-SIZE CATALOGUE</span><h2>Boxes ready when you are.</h2><p>Browse a few of the sizes available today.</p></div><a href="boxes.html">View all boxes →</a></div>
-  <div id="featuredGrid" class="featured-grid" aria-live="polite"></div>
-</section>
-
-<section class="how-section">
-  <div class="how-intro"><span class="eyebrow">HOW IT WORKS</span><h2>From size to order<br>without the runaround.</h2></div>
-  <div class="steps">
-    <div class="step"><span>01</span><h3>Find your size</h3><p>Use the dimension finder or browse all ready-size boxes.</p></div>
-    <div class="step"><span>02</span><h3>Choose quantity</h3><p>Your price updates live as you change the quantity.</p></div>
-    <div class="step"><span>03</span><h3>Add to cart</h3><p>Select one size or build an order with multiple box sizes.</p></div>
-    <div class="step"><span>04</span><h3>Confirm</h3><p>Send the order details to PackNiti and we'll take it forward.</p></div>
-  </div>
-</section>
-
-<section class="why-section">
-  <div class="why-card"><span class="big-mark">P</span><span class="eyebrow">WHY PACKNITI</span><h2>Packaging should be easy to buy.</h2><p>No hunting through random listings. No guessing which size is close enough. PackNiti puts dimensions, availability and quantity pricing in one buying flow.</p><a class="text-link" href="boxes.html">Explore the catalogue →</a></div>
-  <div class="why-list">
-    <div><b>01</b><span><strong>Dimension-first</strong>Find the box around your actual requirement.</span></div>
-    <div><b>02</b><span><strong>Price as you buy</strong>See the current per-box price at your quantity.</span></div>
-    <div><b>03</b><span><strong>Built for businesses</strong>Ready-size boxes for shipping, retail, gifting and everyday packing.</span></div>
-  </div>
-</section>
-
-<section class="custom-banner">
-  <div><span class="eyebrow">CAN'T FIND THE FIT?</span><h2>Have your own dimensions?</h2><p>Tell us the size and quantity you need. We'll help with a custom box enquiry.</p></div>
-  <a class="primary light" href="custom.html">Custom Box Enquiry →</a>
-</section>
-
-<section class="final-contact"><div><span class="eyebrow">PACKNITI</span><h2>Ready to find your box?</h2><p>Start with the catalogue. If you need help beyond ready sizes, we're one message away.</p></div><div class="final-actions"><a class="primary" href="boxes.html">Open Box Finder →</a><a class="secondary" href="contact.html">Contact Us</a></div></section>
+<section class="hero"><div class="hero-copy"><div class="eyebrow">PACKNITI · CORRUGATED PACKAGING</div><h1>Find the box<br><em>that fits.</em></h1><p class="hero-lead">Ready-size 3-ply brown corrugated boxes with clear quantity pricing. Find your size, choose your quantity, and get packing moving.</p><div class="hero-actions"><a class="primary" href="boxes.html#finder">Find Your Box <span>→</span></a><a class="secondary" href="custom.html">Need a custom size?</a></div><div class="hero-proof"><span>✓ Ready-size catalogue</span><span>✓ Live quantity pricing</span><span>✓ Simple checkout</span></div></div><div class="hero-visual" aria-label="PackNiti corrugated boxes advertisement"><img class="hero-ad" src="assets/packniti-hero-ad.png" alt="A selection of PackNiti corrugated cardboard boxes ready for packing"></div></section>
+<section class="finder-strip"><div><span class="eyebrow">START HERE</span><h2>Know your dimensions?</h2><p>Search by length × breadth × height. Exact matches come first; closest available sizes follow.</p></div><a href="boxes.html#finder" class="finder-action"><span><b>Find by size</b><small>Open the Box Finder</small></span><strong>→</strong></a></section>
+<section class="catalogue-section"><div class="section-head"><div><span class="eyebrow">READY-SIZE CATALOGUE</span><h2>Boxes ready when you are.</h2><p>Browse a few of the sizes available today.</p></div><a href="boxes.html">View all boxes →</a></div><div id="featuredGrid" class="featured-grid" aria-live="polite"></div></section>
+<section class="how-section"><div class="how-intro"><span class="eyebrow">HOW IT WORKS</span><h2>From size to order<br>without the runaround.</h2></div><div class="steps"><div class="step"><span>01</span><h3>Find your size</h3><p>Use the dimension finder or browse all ready-size boxes.</p></div><div class="step"><span>02</span><h3>Choose quantity</h3><p>Your price updates live as you change the quantity.</p></div><div class="step"><span>03</span><h3>Add to cart</h3><p>Select one size or build an order with multiple box sizes.</p></div><div class="step"><span>04</span><h3>Confirm</h3><p>Send the order details to PackNiti and we'll take it forward.</p></div></div></section>
+<section class="why-section"><div class="why-card"><span class="big-mark">P</span><span class="eyebrow">WHY PACKNITI</span><h2>Packaging should be easy to buy.</h2><p>No hunting through random listings. No guessing which size is close enough. PackNiti puts dimensions, availability and quantity pricing in one buying flow.</p><a class="text-link" href="boxes.html">Explore the catalogue →</a></div><div class="why-list"><div><b>01</b><span><strong>Dimension-first</strong>Find the box around your actual requirement.</span></div><div><b>02</b><span><strong>Price as you buy</strong>See the current per-box price at your quantity.</span></div><div><b>03</b><span><strong>Built for businesses</strong>Ready-size boxes for shipping, retail, gifting and everyday packing.</span></div></div></section>
+<section class="custom-banner"><div><span class="eyebrow">CAN'T FIND THE FIT?</span><h2>Have your own dimensions?</h2><p>Tell us the size and quantity you need. We'll help with a custom box enquiry.</p></div><a class="primary light" href="custom.html">Custom Box Enquiry →</a></section>
+<section class="final-contact"><div><span class="eyebrow">PACKNITI</span><h2>Ready to find your box?</h2><p>Start with the catalogue. If you need help beyond ready sizes, we're one message away.</p></div><div class="final-actions"><a class="primary" href="boxes.html">Open Box Finder →</a><a class="secondary" href="box-size-chart.html">See all 39 sizes</a></div></section>
 </main>
-
-<footer><div class="footer-brand"><img src="assets/packniti-header-logo.png" alt="PackNiti"><p>Practical packaging. Smarter buying.</p></div><div class="footer-links"><a href="boxes.html">Boxes</a><a href="custom.html">Custom Boxes</a><a href="contact.html">Contact</a><a href="https://wa.me/919310706043" target="_blank" rel="noopener">WhatsApp</a></div><div class="footer-bottom">© 2026 PackNiti · Brown corrugated packaging</div></footer>
+<footer><div class="footer-brand"><img src="assets/packniti-header-logo.png" alt="PackNiti"><p>Practical packaging. Smarter buying.</p></div><div class="footer-links"><a href="boxes.html">Boxes</a><a href="box-size-chart.html">Size Chart</a><a href="custom.html">Custom Boxes</a><a href="contact.html">Contact</a><a href="https://wa.me/919310706043" target="_blank" rel="noopener">WhatsApp</a></div><div class="footer-bottom">© 2026 PackNiti · Brown corrugated packaging</div></footer>
 <script src="index.js"></script>
 </body></html>

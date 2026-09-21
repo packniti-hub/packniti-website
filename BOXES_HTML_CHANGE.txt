@@ -1,0 +1,6 @@
+In boxes.html, immediately after the existing:
+<script src="boxes.js"></script>
+add:
+<script src="seo-enhancements.js"></script>
+
+This adds crawlable "View product details" links to every dynamically rendered Box Finder result without changing the existing finder logic.
