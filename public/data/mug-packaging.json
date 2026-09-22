@@ -1,0 +1,23 @@
+{
+  "id": "PACKNITI-MUG-PACKAGING-01",
+  "slug": "mug-packaging",
+  "name": "Premium Mug Packaging",
+  "outer_box": "15 × 12 × 10 cm",
+  "mug_capacity": "300–500 ml",
+  "inserts": 2,
+  "label_area": "13.5 × 9.5 cm",
+  "pricing": {"1-100": 38, "101-500": 34, "501-2000": 29, "2000+": 25},
+  "label_pricing": {"1-500": 3, "501+": 2},
+  "shipping_extra": true,
+  "gallery": [
+    {"file":"front-personalised-1.jpeg","alt":"Premium mug packaging box front view"},
+    {"file":"label-area.jpeg","alt":"Dedicated custom label area on the mug packaging box"},
+    {"file":"open-inserts.jpeg","alt":"Mug secured between two molded-pulp inserts"},
+    {"file":"front-personalised-2.jpeg","alt":"Premium mug packaging box alternate view"},
+    {"file":"fragile-side.jpeg","alt":"Mug packaging box side view"}
+  ],
+  "label_examples": [
+    {"file":"label-example-1.jpeg","alt":"Custom mug packaging label example"},
+    {"file":"label-example-2.jpeg","alt":"Custom mug packaging label example"}
+  ]
+}

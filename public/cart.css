@@ -16,3 +16,47 @@
 .cart-image img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;object-position:center!important;padding:6px!important;margin:0!important;mix-blend-mode:multiply}
 .brand-logo{display:block;width:196px;height:72px;object-fit:contain;object-position:center}
 @media(max-width:800px){.brand-logo{width:145px;height:58px}}
+
+/* =========================================================
+   PREMIUM MUG PACKAGING + CUSTOM LABEL CART ITEMS
+========================================================= */
+
+.cart-item-mug .cart-image,
+.cart-item-label .cart-image {
+  overflow: hidden;
+}
+
+.cart-item-mug .cart-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.label-cart-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1eee6;
+}
+
+.label-cart-icon {
+  width: 58px;
+  height: 42px;
+  border: 1px solid rgba(0, 0, 0, .16);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: #4f4b44;
+  background: #fff;
+}
+
+.cart-item-mug .cart-meta,
+.cart-item-label .cart-meta {
+  line-height: 1.45;
+}
