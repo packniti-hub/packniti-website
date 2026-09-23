@@ -183,7 +183,7 @@ function productRow(p){
 
     <div>
       <div class="product-meta">${escapeHtml(p.material||"Corrugated")} · ${escapeHtml(p.color||"Brown")}</div>
-      <div class="product-title">${escapeHtml(p.title||"PackNiti Box")}</div>
+      <div class="product-title"><a class="product-title-link" href="/boxes/${encodeURIComponent(String(p.id).replace(/^PACKNITI-3PLY-/i,""))}">${escapeHtml(p.title||"PackNiti Box")}</a></div>
       ${currentMatches?.target?`<div class="match-badge"><span></span>${exact?"Exact match":isRotated?"Same dimensions — rotated":"Close match"}</div>`:""}
       <div class="stock-badge ${inStock?"":"out"}">${inStock?"In stock":"Not in stock"}</div>
     </div>
